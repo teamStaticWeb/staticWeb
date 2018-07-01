@@ -1,0 +1,164 @@
+html{
+	font-size: 96px;
+}
+body,header,nav,.web-wrapper{
+	min-width: 960px;
+}
+
+header{
+	height: 0.4375rem;
+	font-size:0.1rem;
+}
+
+header,nav{
+	padding: 0.0rem 0.3rem;
+}
+
+header .logo{
+	margin-top:0.333333rem;
+	margin-left: 1.208333rem;
+	float: left;
+	font-size: 0.09375rem
+}
+
+header .logo img{
+	width: 3.808333rem;
+	height: 0.308333rem;
+}
+
+.wellcome{
+	width: 3.0rem;
+	height: 0.291667rem;
+	margin-top: -0.066667rem;
+	padding-top: 0.1rem;
+	float: right;
+}
+
+.wellcome a{
+	margin:0px 0.083333rem;
+}
+
+nav {
+	height: 0.5rem;
+	line-height:0.508333rem;
+	position: relative;
+	z-index: 3;
+}
+
+nav a{
+	display: block;
+	float: left;
+	position: relative;
+}
+
+footer{
+ text-align: center;
+}
+
+footer p{
+	margin:0.15rem auto;
+}
+
+.web-wrapper{
+	position: relative;
+	height: 100%;
+}
+
+.main{
+	min-width: 10.0rem;
+	width: 80%;
+	position: relative;
+	margin:0.166667rem auto;
+	clear: both;
+	overflow: hidden;
+
+}
+
+.main.mobile-client{
+	margin:0.0rem auto;
+
+}
+.news{
+	border:1px solid #7cbaec;
+	margin-top: 0.03125rem;
+	font-size: 0.145833rem;
+	font-family:"宋体";
+	line-height: 0.25rem;
+}
+.page{
+	margin-top:10px;
+	min-height: 300px;
+}
+/***********************************************************@media start**********************************/
+
+
+@media (min-width: 960px){
+	html{
+		font-size: 96px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 960px;
+	}
+	
+}
+
+@media (min-width: 980px){
+	html{
+		font-size: 98px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 980px;
+	}	
+	
+}
+
+
+@media (min-width: 1140px){
+	html{
+		font-size: 114px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 1140px;
+	}
+	
+}
+
+@media (min-width: 1228px){
+	html{
+		font-size: 114px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 1228px
+	}	
+}
+
+@media (min-width: 1440px){
+	html{
+		font-size: 144px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 1440px;
+	}	
+}
+
+
+
+
+@media (min-width: 1600px){
+	html{
+		font-size: 160px;
+	}
+	header,nav,.web-wrapper{
+		min-width: 1600px;
+	}	
+}
+
+
+
+
+
+
+
+/****************************************************@media end****************************************/
+
+

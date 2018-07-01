@@ -1,0 +1,180 @@
+/*表格重置样式-wxl start*/
+
+.table>thead>tr>th, 
+.table>thead>tr>th,
+.table>tbody>tr>td, 
+.table>tbody>tr>td, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>td 
+{
+	padding:  0.1125rem  0.09375rem 0.0625rem;
+	border-top:none;
+	text-align: center;
+	white-space:nowrap;
+}
+
+.table>thead>tr>th{
+	border-bottom:1px solid #dedede;
+	font-weight: normal;
+}
+/*.table tbody{
+	box-shadow:2px 2px 5px #CCC;
+	-moz-box-shadow:2px 2px 5px #CCC;
+	-webkit-box-shadow:2px 2px 5px #CCC;
+}*/
+
+.table tbody tr{
+	height:0.38125rem;
+	color:#878787;
+}
+
+.table tbody td span{
+	word-wrap: break-word; 
+	word-break: normal;
+}
+.table thead tr,
+.table tbody tr{
+	padding:0 14px;
+	line-height:50px;
+}
+
+.table thead tr th:first-child,
+.table tbody tr td:first-child{
+	width: 0.125rem;
+	padding:  0.1125rem  0.1125rem 0.0625rem;
+}
+
+.table tbody tr:last-child{
+	height: 56px;
+	overflow: hidden;
+}
+/*自定义小表格*/
+.subTable thead{
+	 visibility:hidden;
+}
+.subTable thead>tr>th{
+	border-bottom: 1px dotted #ccc;
+    line-height: 1px;
+}
+.table.subTable thead>tr{
+	height: 1px;
+}
+/*按钮*/
+.btn:hover,.btn:visited,.btn:active,.btn:focus{
+	color: #fff;
+	border:none;
+}
+.btn-blue{
+	min-width: 0.833333rem;
+	min-height: 0.28125rem;
+	background-color: #0085ce;
+	color: #fff;
+	border:none;
+}
+
+.btn-gray,.btn-gray:hover,.btn-gray:visited,.btn-gray:active,.btn-gray:focus{
+	color: #1b1b1b;
+	border:none;
+}
+.btn-shipSpace{
+	width:  0.833333rem;
+    margin: 5px auto;
+    text-align: left;
+    color: #878787;
+    background:url("../img/flight/moreseat.gif")  right -4px no-repeat;
+    cursor: pointer;
+}
+/*日期翻页样式*/
+.flightDate{
+	height: 0.8125rem;
+	margin: 0.15625rem 0.0rem;
+	position: relative;
+}
+.flightDate .prev,.flightDate .next{
+	position: absolute;
+	display: block;
+	height: 0.8125rem;
+	width: 0.520833rem;
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+.flightDate .prev{
+	left: 2px;
+}
+.flightDate .next{
+	right: 2px;
+}
+.flightDate .prev i,.flightDate .next i{
+	display: block;
+    background-color: #ffa900;
+    color: #fff;
+    border-radius: 0.145833rem;
+    padding: 0.083333rem;
+    width: 0.28125rem;
+    height: 0.270833rem;
+    line-height: 0.09375rem;
+    top:0.270833rem;
+    left: 0.104167rem;
+}
+.flightDate .dateContent{
+	width: 100%;
+	padding:0.0rem 0.625rem;
+	height: 0.885417rem;
+	overflow: hidden;
+}
+.flightDate .dateContent ul,.flightDate .dateContent ul li{
+	height: 0.8125rem;
+}
+.flightDate .dateContent ul li{
+	float: left;
+	width: 1.1875rem;
+	text-align: center;
+	background-color: #F5F5F5;
+	margin-left: 0.052083rem;
+	line-height: 0.3125rem;
+    padding-top: 0.145833rem;
+    margin-bottom: 0.104167rem;
+    position: relative;
+}
+.flightDate .dateContent ul li:hover,.flightDate .prev:hover,.flightDate .next:hover{
+	 color: #ffa900;
+	 font-weight: bold;
+	 box-shadow: 2px 2px 8px rgba(0,0,0,.1), -2px -2px 8px rgba(0,0,0,.1);
+	-moz-box-shadow: 2px 2px 8px rgba(0,0,0,.1), -2px -2px 8px rgba(0,0,0,.1);
+	-webkit-box-shadow: 2px 2px 8px rgba(0,0,0,.1), -2px -2px 8px rgba(0,0,0,.1);
+}
+.flightDate .dateContent ul li:hover:before,.flightDate .dateContent ul li.active:before{
+	display: block;
+	content: "";
+	width: 1.1875rem;
+	height: 0.104167rem;
+	position: absolute;
+	top: 0.8125rem;
+	background:url("../img/flight/current_date_flag.png") no-repeat;
+}
+
+.red{
+	color: red;
+}
+/*Tab*/
+.nav-tabs{
+	margin:0.104167rem auto;
+}
+.nav-tabs{
+	border:none;
+}
+.nav-tabs>li>a,.nav-tabs>li>a:focus,.nav-tabs>li>a:hover{
+	padding:5px 10px;
+	border:none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
+	border:none;
+	padding:6px 10px;
+}
+.tab-content{
+	padding:0.0rem 0.104167rem;
+}
+
+.bg-pink{
+	background-color: #FFF9E9;
+}

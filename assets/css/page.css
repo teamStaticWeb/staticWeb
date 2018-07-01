@@ -1,0 +1,758 @@
+/*index*/
+.index-top{
+	margin-bottom: 0.125rem;
+}
+.login-title{
+	width: 3.0rem;
+	margin:0px auto;
+	color: #0085ce;
+	padding-bottom: 0.1rem;
+	font-size: 0.208333rem;
+	border-bottom: 2px solid #0186ce;
+}
+
+.login-wrap{
+	width: 3.0rem;
+	margin:0px auto;
+	clear:both;
+	font-size: 0.116667rem;
+	padding:0px 0.134rem;
+}
+
+.login-wrap li{
+	margin:0.166667rem 0.0rem;
+}
+
+
+.login-wrap li input{
+	width: 2.783333rem;
+	height: 0.291667rem;
+	border:1px solid #999;
+	padding:0px 0.083333rem;
+}
+
+.login-wrap li input.user,.login-wrap li input.password{
+	background: url("../img/flight/icon.png") no-repeat;
+	padding-left: 0.291667rem;
+}
+
+.login-wrap li input.user{
+	background-position: 0.041667rem 0.066667rem;
+}
+
+.login-wrap li input.password{
+	background-position: 0.041667rem -43px;
+}
+
+.login-wrap li input.reg{
+	width: 2.166667rem;
+}
+
+.login-wrap li img.jImg{
+	width: 0.530033rem;
+	height: 0.25rem;
+}
+.btn-login,.btn-query{
+	width: 2.8rem;
+	height: 0.316667rem;
+	margin-left: 0.125rem;
+	background-color: #0085ce;
+	border:none;
+	font-size:0.183333rem;
+	color: #fff;
+	text-align: center;
+}
+.btn-login:hover{
+	background-color: #ffa900;
+}
+.login-warp{
+	text-align: center;
+}
+.login-text{
+	width:2.8rem;
+	margin:0px auto;
+	font-size: 0.116667rem;
+	margin-top: 0.083333rem;
+	text-align: right;
+}
+.register{
+	margin-right: 0.25rem;
+}
+.item-title{
+	height: 0.333333rem;
+	background: #0085ce;
+	line-height: 0.333333rem;
+	font-size: 0.133333rem;
+	color: #fff;
+	padding-left: 0.520833rem;
+	padding-right: 0.208333rem;
+	position: relative;
+}
+.item-title a{
+	color: #fff;
+	font-size: 0.104167rem;
+	float: right;
+}
+.item{
+	border:1px solid #bed5e8;
+	border-top: none;
+	min-height: 2.083333rem;
+}
+.item li{
+	padding: 0px 40px;
+	line-height: 30px;
+	clear:both;
+}
+.item li span{
+	font-size: 0.125rem;
+	color: #125591;
+	float: right;
+}
+.help:before,.info:before{
+	content: "";
+	width: 0.229167rem;
+	height: 0.229167rem;
+	position: absolute;
+	top:0.0625rem;
+	left:0.229167rem;
+	background-size: 100% 100%;
+}
+.help:before{
+	background: url("../img/flight/unkonw.png") no-repeat;
+}
+.info:before{
+	background: url("../img/flight/book.png") no-repeat;
+}
+.index-bottom{
+	background-color: #eef9ff;
+	margin-top: 0.125rem;
+	padding:0.3125rem;
+}
+.index-bottom h6{
+	font-weight: bold;
+	margin-bottom: 0.15625rem;
+	font-size: 0.125rem;
+}
+.index-bottom p{
+	padding-left: 0.15625rem;
+	color: #484848;
+	line-height: 0.208333rem;
+	font-size: 0.104167rem;
+}
+/*initSupplier*/
+.crumbs{
+	border-bottom: 1px solid #BFD6E8;
+	line-height: 0.416667rem;
+	font-size: 0.104167rem;
+	padding-left: 0.15625rem;
+}
+
+.step1{
+	border-bottom: 2px solid #0186ce;
+}
+.query-info{
+	float: left;
+	background: url("../img/flight/airplane.gif") no-repeat  0px 10px;
+	padding-left: 0.3125rem;
+	font-size: 0.166667rem;
+}
+
+.step1 .topTips{
+	float: right;
+	background: url("../img/flight/step_01.png") no-repeat  0px 25px;
+}
+.step2 .topTips{
+	float: right;
+	background: url("../img/flight/step_02.png") no-repeat  0px 25px;
+}
+.step2{
+	border: none;
+}
+.topTips{
+	float: right;
+}
+.topTips ul{
+	position: relative;
+    top: -9px;
+}
+
+.topTips ul li{
+	float: left;
+	margin-right: 8px;
+    margin-left: 7px;
+}
+
+.supplier{
+	background-color: #fff9e9;
+	border-top: 1px solid #ffa900;
+	padding:0.104167rem 0.15625rem;
+	margin-top: 0.03125rem;
+	font-size: 0.125rem;
+}
+.supplier-tip{
+	
+}
+.supplier-tip span{
+	display: block;
+	line-height: 0.3125rem;
+}
+.direct,.agent,.net{
+	background-color: #fe0148;
+	color: #fff;
+	padding: 0.020833rem 0.052083rem;
+	border-radius: 0.208333rem;
+	font-size: 0.104167rem;
+	margin-left: 0.104167rem;
+}
+.agent{
+	background-color: #10c83c;
+}
+.net{
+	background-color: #04a1fc;
+}
+.sub-company-btn{
+	background-color: #fea901;
+	color: #fff;
+	border-radius: 0.104167rem;
+	padding:0.03125rem 0.104167rem;
+	font-size: 0.104167rem;
+	margin-left: 0.104167rem;
+}
+.supplier-company{
+	font-size: 0.145833rem;
+	margin:0.208333rem 0.0rem;
+}
+.supplier-company ul{
+	/*float: left;
+	margin:0.208333rem 0.208333rem;*/
+}
+.supplier-company ul li{
+	line-height: 0.3125rem;
+	cursor: pointer;
+	padding:0px 0.104167rem;
+}
+.supplier-company ul li:hover{
+	background-color: #fea901;
+	color: #fff;
+}
+/*provider*/
+.provider-query{
+	clear: both;
+	overflow: hidden;
+	content: "";
+	width: 100%;
+}
+.provider-option{
+	width: 6.145833rem;
+	margin:0.104167rem auto;
+}
+.maps img{
+	width: 6.145833rem;
+	height: 500px;
+}
+.provider-left{
+	float: left;
+	width: 6.145833rem;
+}
+.provider-right{
+	float: right;
+	width: 3.645833rem;
+}
+.provider-option .form-control{
+	width:1.770833rem;
+	border-radius: 0px;
+}
+
+
+.provider-right .nav-tabs>li>a,.provider-right .nav-tabs>li>a:focus,.provider-right .nav-tabs>li>a:hover{
+	background-color: #0085ce;
+	color: #fff;
+	text-align: center;
+	border-radius: 0px;
+}
+.provider-right .nav-tabs li{
+	width: 1.802083rem;
+}
+.provider-right .nav-tabs>li.active>a, .provider-right .nav-tabs>li.active>a:focus,.provider-right .nav-tabs>li.active>a:hover{
+	background-color: #ffba00;
+	color: #fff;
+	text-align: center;
+	border-radius: 0px;
+}
+.provider-right .pagination{
+	padding:0.0rem 0.104167rem;
+}
+
+.provider-right .tab-content{
+	min-height: 450px;
+}
+.provider-right .tab-content p{
+	background:url("../img/flight/bg.jpg");
+	color: #008DD3;
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 5px;
+    font-family: 'Glyphicons Halflings';
+    padding-left:0.052083rem;
+}
+.provider-right .tab-content p:before{
+	content: "\e258";
+	margin-right: 0.104167rem;
+}
+
+.pagination{
+	height:40;margin:20px 0;
+}
+.pagination ul{
+	display:inline-block;
+	*display:inline;
+	margin-bottom:0;
+	margin-left:0;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	*zoom:1;
+}
+.pagination ul>li{
+	display:inline;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.05);
+	box-shadow:0 1px 2px rgba(0,0,0,0.05)
+}
+.pagination ul>li>a,.pagination ul>li>span{
+	margin-right:5px; 
+	float:left;padding:0 14px;
+	line-height:26px;
+	text-decoration:none;
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+.pagination ul>li>a:hover,
+.pagination ul>.active>a,
+.pagination ul>.active>span,
+.pagination ul>.active>span{
+	color:white;
+	background-color:#BED5E8
+}
+.pagination ul>.active>a,
+.pagination ul>.active>span{
+	color:white;
+	cursor:default
+}
+.pagination ul>.disabled>span,
+.pagination ul>.disabled>a,
+.pagination ul>.disabled>a:hover{
+	color:#999;
+	cursor:default;
+	background-color:#f5f5f5;
+	-webkit-border-radius:0 3px 3px 0;
+	-moz-border-radius:0 3px 3px 0;
+	border-radius:0 3px 3px 0
+}
+
+.pagination ul>li:last-child{
+	margin-left:0.3125rem;
+	box-shadow:none;
+	line-height: 28px;
+}
+
+.pagination-centered{
+	text-align:center
+}
+.pagination-right{
+	text-align:right
+}
+/*news*/
+.news-title{
+	background-color: #0085ce;
+	height: 0.3125rem;
+	line-height: 0.3125rem;
+	border-bottom: 1px solid #7cbaec;
+	color: #fff;
+	padding-left: 0.3125rem;
+	text-align: left;
+}
+.news h3{
+	font-size: 0.208333rem;
+	margin:0.208333rem 1.770833rem 0.3125rem;
+	text-align: center;
+}
+.news h4,.news p,.news p.text-indent{
+	margin:0.15625rem 1.770833rem 0.15625rem;
+}
+.news p.text-indent{
+	text-indent:0.3125rem;
+}
+.contentTable{
+	width: 6.354167rem;
+	margin:0px auto;
+	text-align: center;
+}
+.submitType_New{
+	display: block;
+	margin:0.208333rem auto;
+	width: 0.833333rem;
+    height: 0.28125rem;
+    line-height: 0.28125rem;
+    border: none;
+    background-color: #0085ce;
+    color: white;
+}
+
+.main.mobile-client{
+	margin:0.0rem auto;
+	background-color: #f3fbfe;
+	padding-top: 0.416667rem;
+
+}
+
+.mobile-content{
+	clear:both;
+	overflow: hidden;
+	content: "";
+}
+
+.carousel-wrap{
+	background:url("../img/picture/mobile_bg.png") no-repeat;
+	min-height: 5.625rem;
+	width: 5.104167rem;
+	float: left;
+}
+.carousel-wrap .carousel{
+	width: 215px;
+	margin-left: 224px;
+    padding-top: 63px;;
+}
+.carousel-inner>.item{
+	border:none;
+}
+.carousel-wrap .carousel-indicators{
+	bottom:-100px;
+}
+.carousel-indicators li{
+	width: 8px;
+	height: 8px;
+	background-color:#b9babb;
+	border:none;
+}
+.carousel-indicators .active{
+	background-color:#0186ce;
+	width: 10px;
+	height: 10px;
+}
+.mobile-text{
+	float: left;
+	margin-top: 33px;
+}
+.mobile-text-title{
+	width: 464px;
+	height: 100px;
+	background:url("../img/title.png");
+}
+.content-title{
+	width: 293px;
+	height: 31px;
+	margin-top:50px;
+	background:url("../img/download_09.png");
+}
+.mobile-cont{
+	font-family: "微软雅黑";
+	line-height: 28px;
+	padding:30px 0px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dbe9f1;
+}
+.mobile-content .cont-b{
+	color:#2888e1;
+	font-size: 16px;
+}
+.officialDownload{
+	clear: both;
+	overflow: hidden;
+	content: "";
+}
+.officialDownload .download-l{
+	float: left;
+	margin-right: 17px;
+}
+.officialDownload .download-l .scan-code{
+	font-size:12px;
+	color: #b7b7b7;
+	margin: 7px 0px;
+	text-align: center;
+}
+.officialDownload .download-l .download-l-u{
+	width:119px;
+	height: 119px;
+	border:solid 1px #51a6e4;
+	border-radius: 5px;
+	background: #e9f7ff;
+}
+.officialDownload .download-r{
+	float: left;
+	width: 157px;
+	height: 119px;
+}
+.officialDownload .download-r .dl-iphone{
+	height: 52px;
+	margin-bottom: 15px;
+}
+.officialDownload .download-r .dl-android{
+	height: 52px;
+}
+
+.ticketBlock{
+	border: 5px #BFD6E8 solid;
+}
+.ticketBlock .nav-tabs{
+	margin:0px;
+}
+.ticketBlock .nav-tabs{
+	background-color:#0085ce;
+	min-height: 0.333333rem;
+}
+.ticketBlock .nav-tabs li{
+	width: 1.25rem;
+
+}
+.ticketBlock .nav-tabs li a{
+	min-height: 0.333333rem;
+	line-height: 0.229167rem;
+}
+.ticketBlock .nav-tabs>li.active>a,
+.ticketBlock .nav-tabs>li.active>a:focus,
+.ticketBlock .nav-tabs>li.active>a:hover{
+	background-color: #fff;
+	color: #008CCE;
+}
+
+.ticketBlock .tab-content{
+	min-height:330px;
+}
+.checkedRadio{
+	margin:0.104167rem 0.3125rem;
+}
+.checkedRadio label{
+	margin-right: 0.3125rem;
+}
+.flight-option{
+	margin:0.104167rem 0.416667rem;
+}
+.flight-option li{
+	width: 100%;
+	min-height: 0.3125rem;
+}
+
+.flight-option li span{
+	width: 20%;
+}
+.flight-option li input,
+.flight-option li select{
+	width: 80%;
+	height: 0.260417rem;
+	border: 1px #ccc solid;
+}
+.flight-option li:last-child{
+	margin-top: 0.104167rem;
+}
+.flight-option li:last-child input{
+	border:none;
+	width: 98%;
+	height: 0.3125rem;
+	margin:0px auto;
+	display: block;
+	font-size:0.145833rem;
+}
+.tab-pane .dropdown{
+	margin:0.0rem 0.416667rem;
+}
+.tab-pane .dropdown{
+	width: 1.09375rem;
+	float: right;
+}
+.tab-pane .dropdown button{
+	float: right;
+	background-color: transparent;
+    border: none;
+    color: #008ed0;
+}
+
+.login-option{
+	clear:both;
+	content: "";
+	overflow: hidden;
+}
+
+label.direct-flight-only{
+	float: left;
+    margin-left: 0.541667rem;
+    padding: 0px;
+}
+/*机票查询结果页*/
+.subSearchForm{
+	padding: 0.208333rem 0.052083rem;
+	background-color: #FFF9E9;
+}
+.subSearchForm .form-inline .form-group{
+	margin-left: 0.104167rem;
+}
+
+.table td.valgn-center{
+	vertical-align: middle;
+    text-align: center;
+}
+
+.flightCompany{
+	background-color: #FFF9E9;
+	border:1px  #BCD3E5 solid;
+	padding: 0.104167rem;
+}
+.flightCompany p{
+	color: red;
+	float: right;
+	line-height: 0.270833rem;
+}
+/*查询订票信息*/
+.result{
+	border: 1px solid #dedede;
+	border-top:none;
+}
+.theadColor.table>thead>tr{
+	background-color: #FFF9E9;
+}
+.table>tbody>tr.tips{
+	background-color: #F5F5F5;
+	height: 30px;
+	line-height: 30px;
+}
+.table>tbody>tr.tips td{
+	text-align: left;
+	vertical-align:middle;
+	padding:0px 0px 0px 15px;
+	color: #000;
+	font-size: 0.104167rem;
+	border-top: 1px dashed #ccc;
+}
+
+.itemList.table{
+	margin-bottom: 0px;
+}
+.labelTip{
+	color: #E56700;
+	border: 1px solid #E56700;
+	background-color: #fff7d3;
+    min-height: 0.166667rem;
+    font-size:0.104167rem;
+}
+.price,.priceLine,.priceInfo{
+	color: #FFA900;
+    font-weight: bold;
+    font-size: 0.1875rem;
+}
+.priceLine{
+	color:#909090;
+	text-decoration: line-through;
+}
+.priceInfo{
+	font-weight: normal;
+}
+.time{
+	color: #FF6600;
+	font-weight: bold;
+}
+.transfor .city{
+	position: relative;
+}
+.transfor .city:before{
+	display: block;
+	content: "中转";
+	background:url("../img/transfer_center.png")  no-repeat;
+	position: absolute;
+	top: 34px;
+    left: 22%;
+    width: 60px;
+    height: 40px;
+    padding-top: 10px;
+    color: #008DD3;
+}
+
+.baseInfo .table,.flightInfor .table{
+	margin-bottom: 0px;
+}
+.flightInfor,.contactInfor{
+	border: 1px solid #ddd;
+}
+.flightTitle{
+	background-color: #DEDEDE;
+	height: 0.260417rem;
+	line-height: 0.260417rem;
+	padding-left: 15px;
+	font-weight: 500;
+}
+.flightInfor .form-control{
+	display: inline;
+}
+.flightInfor .table td{
+	vertical-align: middle;
+}
+/*乘机人页面*/
+.flightTab .nav-tabs li{
+	padding-left: 0.15625rem;
+}
+.flightTab .nav-tabs li label{
+	min-width: 1.25rem;
+}
+.flightTab .nav-tabs li label input{
+	position: relative;
+	top: -0.03125rem;
+	margin-right: 0.03125rem;
+}
+.flightTab .tab-pane ul,.flightTab .tab-pane p{
+	margin:0.104167rem;
+}
+.flightTab .tab-pane ul li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.flightTab .tab-pane ul li i{
+	margin-right: 0.052083rem;
+}
+.flightTab .tab-pane ul li span{
+	font-weight: 550;
+	padding-right: 0.052083rem;
+}
+.flightTab .tab-pane ul li .form-control{
+	width: 1.041667rem;
+	margin-right: 0.104167rem;
+}
+.contactBody{
+	padding:0.104167rem;
+}
+.contactBody .table{
+	margin-bottom: 0.0rem;
+}
+.contactBody .bg-pink{
+	color: #000;
+	text-align: right;
+}
+.contactBody .bg-pink span{
+	position: relative;
+	top:0.020833rem;
+	margin-right: 0.03125rem;
+}
+.contactBody .table span{
+	float: left;
+	position:  relative;
+	top: 0.052083rem;
+	margin: 0px 0.041667rem;
+}
+.submitOrder{
+	text-align: center;
+}
+.submitOrder button,.submitOrder p{
+	margin: 0.104167rem auto;
+}
+.submitOrder button,.submitOrder p input{
+	position: relative;
+	top:-0.020833rem;
+}
