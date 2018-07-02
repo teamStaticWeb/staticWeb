@@ -12,3 +12,14 @@
 	color: #fff;
 	background-color: #ffa900;
 }
+
+/*cyh*/
+.bord-hui{
+	border:solid 1px #ccc;
+}
+.padd10{
+	padding:10px;
+}
+.nav-tabs li{
+	text-align:center;
+}
