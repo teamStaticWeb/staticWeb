@@ -20,7 +20,7 @@ var      css = '<!--custom start-->'
                +'<link href="../assets/css/page.css" type="text/css" rel="stylesheet">'
                +'<!--custom end-->';
                
-var template = '<script type="text/javascript" src="../../common/template.js"></script>';
+var template = '<script type="text/javascript" src="../common/template.js"></script>';
 
 document.write(pluginCss,css,template);
 

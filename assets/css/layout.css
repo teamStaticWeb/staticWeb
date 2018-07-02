@@ -1,7 +1,7 @@
 html{
 	font-size: 96px;
 }
-body,header,nav,.web-wrapper{
+body,header,.web-wrapper{
 	min-width: 960px;
 }
 
@@ -10,15 +10,12 @@ header{
 	font-size:0.1rem;
 }
 
-header,nav{
+header{
 	padding: 0.0rem 0.3rem;
 }
 
 header .logo{
-	margin-top:0.333333rem;
-	margin-left: 1.208333rem;
-	float: left;
-	font-size: 0.09375rem
+	
 }
 
 header .logo img{
@@ -26,29 +23,16 @@ header .logo img{
 	height: 0.308333rem;
 }
 
-.wellcome{
-	width: 3.0rem;
-	height: 0.291667rem;
-	margin-top: -0.066667rem;
-	padding-top: 0.1rem;
-	float: right;
-}
 
-.wellcome a{
-	margin:0px 0.083333rem;
-}
 
 nav {
-	height: 0.5rem;
-	line-height:0.508333rem;
 	position: relative;
 	z-index: 3;
 }
 
 nav a{
-	display: block;
-	float: left;
-	position: relative;
+	display: inline-block;
+	margin:0.104167rem;
 }
 
 footer{
@@ -96,7 +80,7 @@ footer p{
 	html{
 		font-size: 96px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 960px;
 	}
 	
@@ -106,7 +90,7 @@ footer p{
 	html{
 		font-size: 98px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 980px;
 	}	
 	
@@ -117,7 +101,7 @@ footer p{
 	html{
 		font-size: 114px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 1140px;
 	}
 	
@@ -127,7 +111,7 @@ footer p{
 	html{
 		font-size: 114px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 1228px
 	}	
 }
@@ -136,7 +120,7 @@ footer p{
 	html{
 		font-size: 144px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 1440px;
 	}	
 }
@@ -148,7 +132,7 @@ footer p{
 	html{
 		font-size: 160px;
 	}
-	header,nav,.web-wrapper{
+	header,.web-wrapper{
 		min-width: 1600px;
 	}	
 }

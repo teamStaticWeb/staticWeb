@@ -141,50 +141,50 @@ function userOut(){
 * describe: 一级导航对应的方法
 *
 */
-function setHeader(){
-	var menu = $('nav>p>a');
-	var yjcdm = getKey("yjcdm");
+// function setHeader(){
+// 	var menu = $('nav>p>a');
+// 	var yjcdm = getKey("yjcdm");
 	
-	if(yjcdm ==""){
-		getmenu("lzda");
-		$("a[data-name=lzda]").addClass("active");
-	}else{
-		getmenu(yjcdm);
-		$("a[data-name="+yjcdm+"]").addClass("active");
-	}
-	$(".wellcome a span").html(getKey("name"));
+// 	if(yjcdm ==""){
+// 		getmenu("lzda");
+// 		$("a[data-name=lzda]").addClass("active");
+// 	}else{
+// 		getmenu(yjcdm);
+// 		$("a[data-name="+yjcdm+"]").addClass("active");
+// 	}
+// 	$(".wellcome a span").html(getKey("name"));
 	
-	menu.click(function(){
-		for(var i = 0;i< menu.length; i++){
-			$(menu[i]).removeClass("active");
-		};
-		$(this).addClass("active");
-		setKey("yjcdm",$(this).attr("data-name"));
-		getmenu($(this).find("a").attr("data-name"));
-	});
-}
+// 	menu.click(function(){
+// 		for(var i = 0;i< menu.length; i++){
+// 			$(menu[i]).removeClass("active");
+// 		};
+// 		$(this).addClass("active");
+// 		setKey("yjcdm",$(this).attr("data-name"));
+// 		getmenu($(this).find("a").attr("data-name"));
+// 	});
+// }
 
-/*
-*
-* describe: 获取二级菜单
-*
-*/
+// /*
+// *
+// * describe: 获取二级菜单
+// *
+// */
 
-function getmenu(parent){
+// function getmenu(parent){
 
-	if (geturl() == "login" || geturl() == "zhmm" || geturl(window.location.href.split("&")[0]) == "zhmm_cs"){
-		return;
-	}
-	var param = {
-		"table":"menu",
-		"coloum":"*",
-		"where":"and YJCDM="+F.strConvert(parent)
-	};
+// 	if (geturl() == "login" || geturl() == "zhmm" || geturl(window.location.href.split("&")[0]) == "zhmm_cs"){
+// 		return;
+// 	}
+// 	var param = {
+// 		"table":"menu",
+// 		"coloum":"*",
+// 		"where":"and YJCDM="+F.strConvert(parent)
+// 	};
 
-	// ajax.post(webInfo+"/mvc/getMenu",param,function(data){
-	// 	console.log("data",data);
-	// });
-}
+// 	// ajax.post(webInfo+"/mvc/getMenu",param,function(data){
+// 	// 	console.log("data",data);
+// 	// });
+// }
 
 /*
 *
@@ -224,7 +224,7 @@ console.log("common外面");
 $(function(){
 
 	// getUser();
-	setHeader();
+	//setHeader();
 
 	$("#jWellcomeName").click(function(){
 		$("#jLogout").toggle();	
