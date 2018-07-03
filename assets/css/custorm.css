@@ -1,0 +1,57 @@
+.menus{
+	width:30%;
+}
+.menus h4{
+	background: #eee;
+	height:50px;
+}
+.menus h4 span{
+	display: block;
+	float:right;
+}
+.menus ul li{
+	margin-left:10px;
+}
+.menus ul li h5{
+
+}
+.menus ul li span{
+	margin-left:20px;
+	display: block;
+}
+
+/*瀑布iyhc*/
+*{
+	margin:0; padding:0;
+}
+/*#main{
+	position:relative;
+}
+.box{
+	padding:15px 0 0 15px;
+	float:left;
+}
+.pic{
+	padding:10px;
+	border:solid 1px #ccc;
+	box-shadow: 0 0 5px #ccc;
+}
+.pic img{width:165px;}*/
+
+
+#main{
+    -webkit-column-width:160px;
+    -moz-column-width:160px; 
+	  -webkit-column-gap:5px;
+	  -moz-column-gap:5px;
+}
+
+
+/*数据块 砖块*/
+
+#main div{width:160px; margin:4px 0;}
+#main div img{
+	width:100%;
+}
+
+
