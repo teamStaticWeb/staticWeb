@@ -1,0 +1,11 @@
+ asset
+	css
+	js -这里面放当个页面的js，单独引入到页面里
+
+common 放置公共js 已引入到app.js中，如果需要添加全局的，直接添加到app.js中
+ 	css.js 用来添加所有页面引入的公共样式路径
+
+plugin 	放置组件
+
+view 放置静态页面
+	

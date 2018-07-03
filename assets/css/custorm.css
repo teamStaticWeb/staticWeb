@@ -1,3 +1,4 @@
+
 .menus{
 	width:30%;
 }
@@ -39,7 +40,7 @@
 .pic img{width:165px;}*/
 
 
-#main{
+.water{
     -webkit-column-width:160px;
     -moz-column-width:160px; 
 	  -webkit-column-gap:5px;
@@ -49,9 +50,45 @@
 
 /*数据块 砖块*/
 
-#main div{width:160px; margin:4px 0;}
-#main div img{
+.water div{width:160px; margin:4px 0;}
+.water div img{
 	width:100%;
 }
+
+/*footer*/
+.footer{
+	color:#fff;
+}
+.bg-black{
+	background: #000;
+}
+.bg-333{
+	background: #333;
+}
+.footer-top{
+	height: 60px;
+	line-height: 60px;
+}
+.share img{
+	margin:auto 15px auto 0;
+}
+.f-email input{
+	width:300px;
+	height:38px;
+	background:#333;
+	line-height: 38px;
+	color:#ccc;
+	margin:0 10px 0 40px;
+	border: none;
+	padding:0 10px;
+
+}
+.f-email img{
+	border:solid 1px #666;
+	border-radius: 5px;
+	padding:10px 20px;
+}
+
+
 
 
