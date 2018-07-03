@@ -112,6 +112,6 @@ function geturl(url){
 */
 
 //头部
-document.write(headerHtml);
+//document.write(headerHtml);
 
 

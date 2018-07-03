@@ -1,0 +1,47 @@
+header{
+	width: 100%;
+}
+.nav-top-wrap{
+	width: 100%;
+	background: #181818;
+}
+
+.nav-top{
+	width: 1160px;
+	margin:0px auto;
+	height: 30px;
+	line-height: 30px;
+	color:#595959;
+}
+.nav-top .tip{
+	
+	font-size: 12px;
+}
+.nav-top .tel{
+	color: #c8a165;
+	font-size: 14px;
+	margin-left: 4px;
+}
+.nav-top .nav-top-right span{
+	display: inline-block;
+	width: 80px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { 
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	.nav-top{
+		width: 1160px;
+	}
+}
