@@ -1,19 +1,22 @@
 header{
 	width: 100%;
 }
+header.active{
+	background-color: rgba(31,45,61,.50);
+}
 .nav-top-wrap{
 	width: 100%;
 	background: #181818;
+	overflow: hidden;
 }
 
+.nav-top,.nav-wrap{
+	margin:0px auto;	
+}
 .nav-top{
-	width: 1160px;
-	margin:0px auto;
-	height: 30px;
-	line-height: 30px;
 	color:#595959;
 }
-.nav-top .tip{
+.nav-top .tip,.nav-top .email{
 	
 	font-size: 12px;
 }
@@ -22,26 +25,143 @@ header{
 	font-size: 14px;
 	margin-left: 4px;
 }
+.nav-top .tip:hover,
+.nav-top .email:hover,
+.nav-top .nav-top-right span:hover,.nav-top .nav-top-right i:hover{
+	color: #fff;
+}
 .nav-top .nav-top-right span{
 	display: inline-block;
-	width: 80px;
 	font-size: 12px;
 	text-align: center;
 	cursor: pointer;
 }
-/* 小屏幕（平板，大于等于 768px） */
-@media (min-width: 768px) { 
-
+.nav-top .nav-top-right i{
+	cursor: pointer;
 }
-
-/* 中等屏幕（桌面显示器，大于等于 992px） */
-@media (min-width: 992px) { 
-
+.nav-wrap{
+	position: relative;
 }
-
-/* 大屏幕（大桌面显示器，大于等于 1200px） */
-@media (min-width: 1200px) {
-	.nav-top{
-		width: 1160px;
+.logo{
+	margin-top:11px;
+}
+.logo,.logo img{
+	display: inline-block;
+}
+nav{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	color:#fff;
+	font-size: 14px;
+	top:27px;
+}
+nav a{
+	display: inline-block;
+	color:#fff;
+}
+nav a:hover{
+	color: #fff;
+}
+nav p{
+	display: inline-block;
+	position: relative;
+}
+nav p a{
+	text-align: center;
+}
+nav p:before{
+	content: "|";
+	display: block;
+	width: 1px;
+	position: absolute;
+}
+nav p:after{
+	content: "|";
+	display: block;
+	width: 1px;
+    position: absolute;
+ 
+}
+.top-search-btn{
+	background: none;
+	border:none;
+}
+.top-search-group{
+	position: absolute;
+    right: 0px;
+    top: -7px
+}
+.top-search-group input{
+	background: #181818;
+	border:none;
+	height: 34px;
+	line-height: 24px;
+	padding: 5px 10px;
+	width: 320px;
+}
+.top-search-btn{
+	background: none;
+    border: none;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+.sowingMap img{
+	width: 100%;
+}
+/*更小的 或者默认的*/
+	.nav-top,.nav-wrap{
+		width: 750px;
 	}
-}
+	.nav-top{
+		height: 19px;
+		line-height: 19px;
+	}
+	.nav-top .tip,.nav-top .email{	
+		font-size: 12px;
+	}
+	.nav-top .tel{
+		font-size: 14px;
+		margin-left: 4px;
+	}
+
+	.nav-top .nav-top-right span{
+		width: 51px;
+	}
+
+	.nav-wrap{
+		height: 50px;
+	}
+	.logo{
+		margin-top:7px;
+	}
+	.logo,.logo img{
+		width: 115px;
+		height: 33px;
+	}
+	nav{
+		width: 520px;
+		font-size: 14px;
+		top:17px;
+	}
+	nav a{
+		width: 78px;
+	}
+	nav p a{
+		width: 74px;
+	}
+	nav p:before{
+		left:-14px;
+	}
+	nav p:after{
+	    right: -4px;
+	    top: 0px;
+	}
+	.top-search-group input{
+		height: 22px;
+		line-height: 15px;
+		padding: 3px 6px;
+		width: 204px;
+	}
+

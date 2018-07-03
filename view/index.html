@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>无恙家居网站-首页</title>
   <script src="../common/css.js"></script>
+   <link rel="stylesheet" type="text/css" href="../plugin/swiper/css/swiper.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/custorm.css" />
 </head>
 <body>
 	
-	<header>
+	<header class="active">
 		<div class="nav-top-wrap">
 			<div class="nav-top clearfix">
 				<div class="pull-left">
 					<span class="tip">Call us for free</span>
 					<span class="tel">400-671-1871</span>
+					<span class="email">yimijia@163.com</span>
 				</div>
 				<div class="pull-right nav-top-right">
 					<span class="login">登录</span> |
@@ -25,7 +28,7 @@
 		</div>
 		
 		<div class="nav-wrap">
-			<a href="#">
+			<a href="#" class="logo">
 				<img src="../assets/img/logo.png">
 			</a>
 			<nav>
@@ -37,15 +40,38 @@
 					<a href="#">如何选购</a>
 					<a href="#">最近文章</a>
 				</p>
-				<div>
-					<input />
-					<button class="glyphicon glyphicon-search"></button>
+				<div class="top-search-group">
+					<input  style="display: none" />
+					<button id="top-search-btn" class="top-search-btn glyphicon glyphicon-search"></button>
 				</div>
 			</nav>
 		</div>
 		
 	</header>
-	
+
+		<div class="sowingMap">
+				<div class="swiper-container swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="../assets/img/timg1.jpeg">
+						</div>
+						<div class="swiper-slide">
+							<img src="../assets/img/timg2.jpeg">
+						</div>
+						<div class="swiper-slide">
+							<img src="../assets/img/timg3.jpeg">
+						</div>
+						<div class="swiper-slide">
+							<img src="../assets/img/timg4.jpeg">
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
 
 	<footer>
 
