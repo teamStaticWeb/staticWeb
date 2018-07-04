@@ -38,13 +38,54 @@
 	box-shadow: 0 0 5px #ccc;
 }
 .pic img{width:165px;}*/
+/*设计师*/
+.overHide{
+	clear:both;
+	width:100%;
+	overflow: hidden;
+}
+.designer{
+	width:102%;
+	margin-right:-2%;
+}
+.designer dl dt.showEdate{
+	opacity: 1;
+	transition: all 1s;
+}
+.designer dl{
+	width:25%;
+	float:left;
+	position: relative;
+}
+.designer dl dd,.designer dl dt{
+	
+	min-height:270px;
+}
+
+.designer dl dt{
+	background: #333;
+	color:#fff;
+	position: absolute;
+	width:92%;
+	text-align: center;
+	padding-top:50px;
+	opacity: 0;
+	transition:all 1s;
+}
+.designer dl dd{
+	/*text-align: center;*/
+}
+.designer dl dd img{
+	width:92%;
+
+}
 /*瀑布流*/
 .bg-hui-f1{
 	background: #f7f7f7;
 }
 .waterfalls h3{
 	text-align: center;
-	padding-bottom:20px;
+	padding:20px 0;
 }
 #main{
         position: relative;
