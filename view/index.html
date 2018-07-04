@@ -10,7 +10,40 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/custorm.css" />
 </head>
 <body>
-	<header class="active">
+<!-- PRELOADER -->
+		<div class="page-loader" style="display: none;">
+			<div class="loader" style="display: none;">Loading...</div>
+		</div>
+		<!-- /PRELOADER -->
+		<!-- LAYOUT-->
+		<div class="layout" id="layout">
+			<a href="#" class="navigation-hide"><i class="ion-close-round"></i></a>
+			<div class="overlay">
+				<ul class="">
+					<li>
+						<a href="#" title="首页">首页</a>
+					</li>
+					<li>
+						<a href="#" title="商品">商品</a>
+					</li>
+					<li class="current">
+						<a href="#" title="品牌">品牌</a>
+					</li>
+					<li>
+						<a href="#" title="设计师">设计师</a>
+					</li>
+					<li>
+						<a href="#" title="如何选购">如何选购</a>
+					</li>
+					<li>
+						<a href="#" title="最近文章">最近文章</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!-- WRAPPER -->
+	<!-- <header class="active navbar-fixed-top">
 		<div class="nav-top-wrap">
 			<div class="nav-top clearfix">
 				<div class="pull-left">
@@ -46,31 +79,98 @@
 			</nav>
 		</div>
 		
-	</header>
-
-		<div class="sowingMap">
-				<div class="swiper-container swiper1">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img src="../assets/img/timg1.jpeg">
+	</header> -->
+	<div class="wrapper">
+		<!-- NAVIGATION -->
+			<nav class="navbar navbar-custom navbar-light navbar-fixed-top navbar-transparent">
+				<div class="nav-top-wrap">
+					<div class="container">
+						<div class="pull-left">
+							<span class="tip">Call us for free</span>
+							<span class="tel">400-671-1871</span>
+							<span class="email">yimijia@163.com</span>
 						</div>
-						<div class="swiper-slide">
-							<img src="../assets/img/timg2.jpeg">
-						</div>
-						<div class="swiper-slide">
-							<img src="../assets/img/timg3.jpeg">
-						</div>
-						<div class="swiper-slide">
-							<img src="../assets/img/timg4.jpeg">
+						<div class="pull-right nav-top-right">
+							<span class="login">登录</span> |
+							<span class="myOrder">我的订单</span>
+							<i class="myCollect">我的收藏</i>
 						</div>
 					</div>
-					<!-- Add Pagination -->
-					<div class="swiper-pagination"></div>
-					<!-- Add Arrows -->
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
+				</div>
+				<div class="container">
+					<!-- YOU LOGO HERE -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="" id="navbar-toggle">
+					            <span class="sr-only">切换导航</span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					        </button>
+						<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" width="180" alt=""></a>
+					</div>
+					<div class="navbar-collapse collapse " id="example-navbar-collapse">
+						<ul class="nav navbar-nav  pull-right">
+							<li>
+								<a href="#" title="首页">首页</a>
+							</li>
+							<li>
+								<a href="#" title="商品">商品</a>
+							</li>
+							<li class="current">
+								<a href="#" title="品牌">品牌</a>
+							</li>
+							<li>
+								<a href="#" title="设计师">设计师</a>
+							</li>
+							<li>
+								<a href="#" title="如何选购">如何选购</a>
+							</li>
+							<li>
+								<a href="#" title="最近文章">最近文章</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- /NAVIGATION -->
+
+		<div class="sowingMap">
+		<div class="swiper-container swiper1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="../assets/img/picture/sowingmap1.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/img/picture/sowingmap2.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/img/picture/sowingmap1.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/img/picture/sowingmap2.jpg">
 				</div>
 			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+		</div>
+	</div>
+
+	<article class="row litteBanner">
+
+		
+		<div class="col-md-6 col-sm-6 col-xs-6"><img src="../assets/img/picture/img01.jpg" width="100%"></div>
+		<ul class="col-md-6 col-sm-6 col-xs-6" style="list-style: none;padding: 0;">
+			<li class="col-md-6 col-sm-6 col-xs-6"><img src="../assets/img/picture/img02.jpg" width="100%"></li>
+			<li class=" col-md-6 col-sm-6 col-xs-6"><img src="../assets/img/picture/img03.jpg" width="100%"></li>
+			<li class="col-md-12 col-sm-12 col-xs-12"><img src="../assets/img/picture/img06.jpg" width="100%"></li>
+		</ul>
+		
+	</article>
+</div>
 	<!--设计师-->
 	<div class="container-fluid">
 	  <div class="container">
@@ -392,5 +492,9 @@
 		</div>
 	</footer>
 	<script src="../common/app.js"></script>
+	<script src="../plugin/swiper/js/swiper.min.js"></script>
+	<script src="../assets/js/index.js"></script>
+	<script src="../assets/js/custom.js"></script>
+	<script src="../assets/js/global.js"></script>
 </body>
 </html>

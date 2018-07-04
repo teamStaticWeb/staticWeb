@@ -18,9 +18,6 @@ var      css = '<!--custom start-->'
                +'<link href="../assets/css/common.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/plugin.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/page.css" type="text/css" rel="stylesheet">'
-               +'<link href="../assets/css/768px.css" type="text/css" rel="stylesheet">'
-               +'<link href="../assets/css/992px.css" type="text/css" rel="stylesheet">'
-               +'<link href="../assets/css/1200px.css" type="text/css" rel="stylesheet">'
                +'<!--custom end-->';
                
 var template = '<script type="text/javascript" src="../common/template.js"></script>';
