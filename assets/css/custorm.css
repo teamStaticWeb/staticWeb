@@ -58,10 +58,8 @@
 	position: relative;
 }
 .designer dl dd,.designer dl dt{
-	
-	min-height:270px;
+	min-height:100%;
 }
-
 .designer dl dt{
 	background: #333;
 	color:#fff;
@@ -77,7 +75,33 @@
 }
 .designer dl dd img{
 	width:92%;
-
+}
+@media screen and (max-width:1000px){
+	.designer dl{
+		width:33.3%;
+	}
+	/*.designer dl dt{
+		padding-top:20px;
+		font-size:12px;
+		line-height:18px;
+		font-weight:200;
+	}*/
+}
+@media screen and (max-width:760px){
+	.designer dl{
+		width:50%;
+	}
+}
+@media screen and (max-width:500px){
+	.designer dl{
+		width:100%;
+	}
+	.designer dl dd img{
+		width:100%;
+	}
+	.designer dl dt{
+		width:100%;
+	}
 }
 /*瀑布流*/
 .bg-hui-f1{
