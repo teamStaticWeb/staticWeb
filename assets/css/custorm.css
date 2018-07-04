@@ -56,6 +56,7 @@
 	width:25%;
 	float:left;
 	position: relative;
+	margin-bottom:20px;
 }
 .designer dl dd,.designer dl dt{
 	min-height:100%;
@@ -137,6 +138,9 @@
 	margin: 20px 2% 0 7%;
 	color:#333;
 	font-size:14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
 }
 #loadMore{
 	position: relative;

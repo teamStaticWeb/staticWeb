@@ -18,6 +18,7 @@ var       JS = '<!--custom js start-->'
 		      +'<script type="text/javascript" src="../common/common.js"></script>'
 		      +'<script type="text/javascript" src="../common/plugin.js"></script>'
 		      +'<script type="text/javascript" src="../common/controller.js"></script>'
+		      +'<script type="text/javascript" src="../common/pages.js"></script>'
 		      +'<!--custom js end-->'
 		      +'<!---------------------- page  start-------------------->';
 
