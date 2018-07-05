@@ -1,4 +1,3 @@
-
 /*
 *
 * describe: config
@@ -11,7 +10,14 @@ $(function(){
   })
   $('.designer dl').mouseout(function(){
    $(this).children('dt').removeClass('showEdate')
-    
+  })
+
+  // 分享
+  $('#weixin').click(function(){
+  	$(this).next().show()
+  })
+  $('.close').click(function(){
+  	$(this).parent().hide()
   })
 })
 //***************瀑布流****************

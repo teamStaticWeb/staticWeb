@@ -530,16 +530,17 @@
       <div class="container footer-top">
         <div class="row">
           <div class="share col-md-5">
-            <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title));void(0)">Twitter</a>
-            <a class="fav_facebook" rel="nofollow" href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));void(0)">Facebook</a>
-            <a href="http://v.t.sina.com.cn/share/share.php?url=http://www.jb51.net&title='分享内容'" target="_blank">新浪微博</a> 
-            <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank">QQ好友</a>
-            <img src="../assets/img/foot/share-icon1.png"/>
-            <img src="../assets/img/foot/share-icon2.png"/>
-            <img src="../assets/img/foot/share-icon3.png"/>
-            <img src="../assets/img/foot/share-icon4.png"/>
-            <img src="../assets/img/foot/share-icon5.png"/>
+            <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title));void(0)"><img src="../assets/img/foot/twitter.png"/></a>
+            <a class="fav_facebook" rel="nofollow" href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));void(0)"><img src="../assets/img/foot/facebook.png"/></a>
+            <a href="http://v.t.sina.com.cn/share/share.php?url=http://www.jb51.net&title='分享内容'" target="_blank"><img src="../assets/img/foot/sina.png"/></a> 
+            <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank"><img src="../assets/img/foot/qq.png"/></a>
+            <span id="weixin"><img src="../assets/img/foot/weixin.png"/></span>
+            <div class="weixin">
+              <span class="close">X</span>
+              <div>aaaaa</div>
+            </div>
           </div>
+
           <div class="f-email col-md-7">
             <span>SUBCRIBLE  NEWSLETTER</span>
             <input type="text" name="" placeholder="Enter your email address">
@@ -626,10 +627,12 @@
       https://www.jb51.net/html5/603468.html
     </div>
   </div>
-
+  <script src="../common/footer.js"></script>
   <script src="../plugin/jquery-3.3.1.min.js"></script>
     <script src="../plugin/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
     <script src="../plugin/swiper/js/swiper.min.js"></script>
+    <script src="../common/app.js"></script>
     <script>
     var swiper = new Swiper('.swiper1', {
       slidesPerView: 1,
@@ -779,5 +782,6 @@ function maxH(dataInt){
 }
 //**********瀑布流end ***************
   </script>
+
 </body>
 </html>
