@@ -71,6 +71,9 @@
 	opacity: 0;
 	transition:all 1s;
 }
+.buyer dl dt{
+	background: rgba(48,45,41,.50);
+}
 .designer dl dd{
 	/*text-align: center;*/
 }

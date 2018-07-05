@@ -115,6 +115,29 @@ nav p:after{
 	width: 100%;
 }
 */
+
+.top-search-group{
+	position: absolute;
+    right: 0px;
+    top: 0px
+}
+.top-search-group input{
+	background: #181818;
+	border:none;
+	height: 34px;
+	line-height: 24px;
+	padding: 5px 10px;
+	width: 182px;
+}
+.top-search-btn{
+	background: none;
+    border: none;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    font-size: 17px;
+    color: #fff;
+}
 .navbar-custom .navbar-nav>li>a{
 	font-size: 14px;
 }
@@ -173,4 +196,58 @@ ul.nav{
 }
 .litteBanner li{
 	margin-bottom: 30px;
+}
+/*买手推荐*/
+.ico-wrap{
+	background: #fff;
+	width: 90%;
+	height: 60px;
+	border-radius: 30px;
+	margin:0px auto;
+	margin-top:45%;
+	position: relative;
+	color:#595959;
+
+}
+.ico-wrap:before{
+	content: "|";
+	display: block;
+	width: 1px;
+	height: 30px;
+    position: absolute;
+    color:#dadada;
+    left:45%;
+    top:34%;
+}
+.ico-wrap span{
+	line-height: 60px;
+}
+
+.buyer-text{
+	height: 89px;
+	display: block;
+	color: #333333;
+	font-size: 18px;
+	font-family:"微软雅黑",tahoma,arial,"Hiragino Sans GB",simsun,
+	sans-serif;
+	position: relative;
+}
+
+.buyer-text{
+	
+}
+.buyer-text:before{
+	content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background: #333333;
+    transition: all .3s;
+}
+.buyer-text:hover:before {
+	width: 100%;
+	left: 0;
+	right: 0;
 }
