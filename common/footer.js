@@ -104,30 +104,7 @@ var footerHtml = `<div class="footer">
     </div>
   </div>`;
 
-/*
-*
-* describe: 获取当前url
-* author: wxl
-*
-*/
 
-function geturl(url){
-	var myUrl = url;
-	if(url == undefined){
-		myUrl = window.location.href;
-	}
-	var urlname= myUrl.substring(myUrl.lastIndexOf("/")+1,myUrl.length);
-	return urlname;
-}
-
-/*
-*
-* describe: 判断注册，登录，修改密码不加载头部 侧边栏
-* author: wxl
-*
-*/
-
-//头部
 document.write(footerHtml);
 
 

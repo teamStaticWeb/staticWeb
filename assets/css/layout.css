@@ -22,38 +22,9 @@
     cursor: pointer;
     color: #fff;
     font-size: 14px;
- /*   position: relative;
-    z-index: 1;*/
-    /*display: inline-block;*/
+
 }
-/*.top-search-group button{
-	border:none;
-	position: absolute;
-	right: -34px;
-	top:0px;
-	width: 34px;
-	height: 34px;
-	background: none;
-	font-size: 16px;
-	color: #fff;
-}*/
-/*.top-search-group input:hover{
-	width: 230px;
-	background-color:rgba(46,46,45,.9);
-	transition: all .3s;
-}*/
-/*.top-search-group:before{
-	content: "\e003";
-    display: block;
-    width: 20px;
-    height: 20px;
-    color: #dddddd;
-    font-size: 15px;
-    right: 10px;
-    top: 10px;
-    position: absolute;
-    font-weight: normal;
-}*/
+
 .searchHover:before{
 	z-index: 100;
 }
@@ -72,15 +43,7 @@
 .rightLine:before{
 	right: 0px;
 }
-/*.top-search-btn{
-	background: none;
-    border: none;
-    position: absolute;
-    right: 8px;
-    top: 10px;
-    font-size: 17px;
-    color: #fff;
-}*/
+
 .navbar-custom .navbar-nav>li>a{
 	font-size: 14px;
 }
