@@ -1,58 +1,6 @@
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
-	.nav-top,.nav-wrap{
-		width: 1160px;
-	}
-	.nav-top{
-		height: 30px;
-		line-height: 30px;
-	}
-	.nav-top .tip,.nav-top .email{	
-		font-size: 12px;
-	}
-	.nav-top .tel{
-		font-size: 14px;
-		margin-left: 4px;
-	}
-
-	.nav-top .nav-top-right span{
-		width: 80px;
-	}
-
-	.nav-wrap{
-		height: 83px;
-	}
-	.logo{
-		margin-top:11px;
-	}
-	.logo,.logo img{
-		width: 180px;
-		height: 51px;
-	}
-	nav{
-		width: 812px;
-		font-size: 14px;
-		top:27px;
-	}
-	nav a{
-		width: 122px;
-	}
-	nav p a{
-		width: 116px;
-	}
-	nav p:before{
-		left:-22px;
-	}
-	nav p:after{
-	    right: -13px;
-	    top: 0px;
-	}
-	.top-search-group input{
-		height: 34px;
-		line-height: 24px;
-		padding: 5px 10px;
-		width: 320px;
-	}
 
 }
+

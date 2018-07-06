@@ -20,13 +20,13 @@
 			<a href="#" class="navigation-hide"><i class="ion-close-round"></i></a>
 			<div class="overlay">
 				<ul class="">
-					<li>
+					<li  class="current">
 						<a href="#" title="首页">首页</a>
 					</li>
 					<li>
 						<a href="#" title="商品">商品</a>
 					</li>
-					<li class="current">
+					<li>
 						<a href="#" title="品牌">品牌</a>
 					</li>
 					<li>
@@ -43,43 +43,7 @@
 			</div>
 		</div>
 		<!-- WRAPPER -->
-	<!-- <header class="active navbar-fixed-top">
-		<div class="nav-top-wrap">
-			<div class="nav-top clearfix">
-				<div class="pull-left">
-					<span class="tip">Call us for free</span>
-					<span class="tel">400-671-1871</span>
-					<span class="email">yimijia@163.com</span>
-				</div>
-				<div class="pull-right nav-top-right">
-					<span class="login">登录</span> |
-					<span class="myOrder">我的订单</span>
-					<i class="myCollect">我的收藏</i>
-				</div>
-			</div>
-		</div>
-		
-		<div class="nav-wrap">
-			<a href="#" class="logo">
-				<img src="../assets/img/logo.png">
-			</a>
-			<nav>
-				<a href="#">首页</a>
-				<a href="#">商品</a>
-				<a href="#">品牌</a>
-				<a href="#">设计师</a>
-				<p>
-					<a href="#">如何选购</a>
-					<a href="#">最近文章</a>
-				</p>
-				<div class="top-search-group">
-					<input  style="display: none" />
-					<button id="top-search-btn" class="top-search-btn glyphicon glyphicon-search"></button>
-				</div>
-			</nav>
-		</div>
-		
-	</header> -->
+
 	<div class="wrapper">
 		<!-- NAVIGATION -->
 			<nav class="navbar navbar-custom navbar-light navbar-fixed-top navbar-transparent">
@@ -122,16 +86,16 @@
 							<li>
 								<a href="#" title="设计师">设计师</a>
 							</li>
-							<li>
+							<li class="leftLine">
 								<a href="#" title="如何选购">如何选购</a>
 							</li>
-							<li>
+							<li class="rightLine">
 								<a href="#" title="最近文章">最近文章</a>
 							</li>
-							<li style="position: relative;">
+							<li style="position: relative; width: 50px;">
 								<div class="top-search-group">
-									<input />
-									<button id="top-search-btn" class="top-search-btn glyphicon glyphicon-search"></button>
+									<input class="search-input"/>
+									<!-- <button id="top-search-btn" class="glyphicon glyphicon-search"></button> -->
 								</div>
 							</li>
 						</ul>
@@ -175,8 +139,15 @@
 			</ul>
 			
 		</article>
-		<div class="container overHide">
-		    <img src="../assets/img/index_title.jpg" alt="" >
+		<div class="container overHide mb40">
+		    <span><img src="../assets/img/index_title.jpg" alt="" ></span>
+		     <ul class="index-title-ul">
+		     	<li><a href="#">床品</a></li>
+		     	<li><a href="#">沙发</a></li>
+		     	<li><a href="#">床具</a></li>
+		     	<li><a href="#">椅子</a></li>
+		     	<li class="more"><a href="#">MORE >></a></li>
+		     </ul>
 		 </div>
 		 <div class="container overHide">
 	    <div class="designer buyer">
@@ -293,8 +264,10 @@
 </div>
 	<!--设计师-->
 	<div class="container-fluid">
-	  <div class="container overHide">
-	      <img src="../assets/img/foot/designers.png" alt="" >
+	  <div class="container overHide  mb40">
+	     <span> <img src="../assets/img/foot/designers.png" alt="" ></span>
+	     <span class="more"><a href="#">MORE >></a></span>
+	    
 	  </div>
 	  <div class="container overHide">
 	    <div class="designer">

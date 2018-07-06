@@ -1,59 +1,8 @@
 
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) { 
-	.nav-top,.nav-wrap{
-		width: 750px;
-	}
-	.nav-top{
-		height: 19px;
-		line-height: 19px;
-	}
-	.nav-top .tip,.nav-top .email{	
-		font-size: 12px;
-	}
-	.nav-top .tel{
-		font-size: 14px;
-		margin-left: 4px;
-	}
-
-	.nav-top .nav-top-right span{
-		width: 51px;
-	}
-
-	.nav-wrap{
-		height: 50px;
-	}
-	.logo{
-		margin-top:7px;
-	}
-	.logo,.logo img{
-		width: 115px;
-		height: 33px;
-	}
-	nav{
-		width: 520px;
-		font-size: 14px;
-		top:17px;
-	}
-	nav a{
-		width: 78px;
-	}
-	nav p a{
-		width: 74px;
-	}
-	nav p:before{
-		left:-14px;
-	}
-	nav p:after{
-	    right: -4px;
-	    top: 0px;
-	}
-	.top-search-group input{
-		height: 22px;
-		line-height: 15px;
-		padding: 3px 6px;
-		width: 204px;
-	}
-
+	/*.sowingMap img{
+		width:768px;
+	}*/
 }
 

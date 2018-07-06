@@ -112,8 +112,8 @@
 			var zoomLogo=function(large)
 			{
 				var ele=$(".navbar-brand img");
-				var start=large?101:178;
-				var end=large?178:101;
+				var start=large?120:180;
+				var end=large?180:120;
 				//var rate=large?1.1:0.9;
 				var rate=large?1:-1;
 				var cur=ele.attr("width");

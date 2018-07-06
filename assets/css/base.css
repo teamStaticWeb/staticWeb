@@ -31,7 +31,9 @@
 	margin-top: 0.125rem;
 	margin-bottom: 0.125rem;
 }
-
+.mb40{
+	margin-bottom: 40px;
+}
 .w30{
 	width: 0.3125rem;
 }
