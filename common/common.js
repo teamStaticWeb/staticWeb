@@ -5,7 +5,7 @@
 *
 */
 var version = "1.0.0";
-var webInfo = "/lzgl";
+var webInfo = "";
 
 
 /*
@@ -40,28 +40,7 @@ window.alert = function (msg, isSuccess, callback) {
 
 
 
-/*
-*
-* describe: 向页面渲染dom元素
-* @param -> @dom: (type:json; des: The elements contained in the page)
-* @param -> @calback:(type:fuction des: user-defined function)
-*
-*/
-function render(dom,callback){
-	// console.log(typeof(dom),typeof callback);
-	// var $Dom = dom || "";
-	// $Dom.html(dom.html);
 
-	if(typeof(dom) == 'object'){
-		var $Dom = $(dom.element);
-		$Dom.html(dom.html);
-	}
-
-	if (typeof(callback) == 'function'){
-		callback();
-	}
-	
-}
 
 
 /*
@@ -136,55 +115,7 @@ function userOut(){
 
 
 
-/*
-*
-* describe: 一级导航对应的方法
-*
-*/
-// function setHeader(){
-// 	var menu = $('nav>p>a');
-// 	var yjcdm = getKey("yjcdm");
-	
-// 	if(yjcdm ==""){
-// 		getmenu("lzda");
-// 		$("a[data-name=lzda]").addClass("active");
-// 	}else{
-// 		getmenu(yjcdm);
-// 		$("a[data-name="+yjcdm+"]").addClass("active");
-// 	}
-// 	$(".wellcome a span").html(getKey("name"));
-	
-// 	menu.click(function(){
-// 		for(var i = 0;i< menu.length; i++){
-// 			$(menu[i]).removeClass("active");
-// 		};
-// 		$(this).addClass("active");
-// 		setKey("yjcdm",$(this).attr("data-name"));
-// 		getmenu($(this).find("a").attr("data-name"));
-// 	});
-// }
 
-// /*
-// *
-// * describe: 获取二级菜单
-// *
-// */
-
-// function getmenu(parent){
-
-// 	if (geturl() == "login" || geturl() == "zhmm" || geturl(window.location.href.split("&")[0]) == "zhmm_cs"){
-// 		return;
-// 	}
-// 	var param = {
-// 		"table":"menu",
-// 		"coloum":"*",
-// 		"where":"and YJCDM="+F.strConvert(parent)
-// 	};
-
-// 	// ajax.post(webInfo+"/mvc/getMenu",param,function(data){
-// 	// 	console.log("data",data);
-// 	// });
-// }
 
 /*
 *
@@ -223,16 +154,44 @@ function getKey(key){
 console.log("common外面");
 $(function(){
 
-	// getUser();
-	//setHeader();
 
-	$("#jWellcomeName").click(function(){
-		$("#jLogout").toggle();	
-	})
+//首页导航input框
+  $(".search-input").mouseover(function() {
+      $(this).animate({
+        "width" : "245px",
+        "height" : "34px"
+      })
+      //$(this).focus();
+      $(this).css("background-color","rgba(46,46,45,.9)")
+    }).focus(function(){
+        //鼠标停留到焦点时 显示固定宽度
+      $(this).css({"background-color":"rgba(46,46,45,.9)","width":"250px"});
 
-	$("#jLogout").click(function(){
-		userOut();
-	})
+    }).blur(function(){
+      $(this).animate({
+        "width" : "40px",
+        "height" : "34px"
+      })
+      $(this).val("");
+      $(this).css({"background-color":"rgba(46,46,45,.0)"});
+    }).keyup(function(event){
+      if(event.keyCode==13){
+        $(this).val("");
+        $(this).blur();
+        $(this).css({"background-color":"rgba(46,46,45,.0)"});
+      }
+    });
+    /*侧边栏*/
+    $(".side-sub").find("li").click(function(){
+    	$(this).addClass("active");
+    	$(this).siblings().removeClass("active");
+    })
 
-
+//***************设计师****************  
+    $('.designer dl').mouseover(function(){
+      $(this).children('dt').addClass('showEdate').stop(true)
+    })
+    $('.designer dl').mouseout(function(){
+     $(this).children('dt').removeClass('showEdate')
+    })
 })

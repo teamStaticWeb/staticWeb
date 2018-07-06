@@ -1,10 +1,10 @@
-首页----index
+首页----index----完成
 登录----login
 注册----register
 搜索结果--searchResult
 
 商品--
-	商品列表页---goodsList
+	商品列表页---goodsList---完成
 
 	商品详情页---goodsDetail
 

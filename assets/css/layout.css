@@ -108,6 +108,7 @@ ul.nav{
 /*footer*/
 .footer{
 	color:#fff;
+	margin-top: 50px;
 }
 .bg-black{
 	background: #000;
@@ -228,8 +229,88 @@ ul.nav{
 	line-height:20px;
 	font-size:12px;
 }
+
+/*内页主体*/
+.wrapper-page{
+	margin-top: 140px;
+}
 /*面包屑*/
+.breadcrumb{
+	background: none;
+	color: #333333;
+	padding-left:0px;
+}
 
 /*侧边栏*/
+.sidebar{
+	border-right: 1px solid #e1e1e1;
+	font-family: "黑体";
+}
+.sidebar-title{
+	margin-bottom: 30px;
 
+}
+.side-one{
+	display: block;
+	color:#333;
+	font-size: 14px;
+	
+	font-weight: bold;
+	padding: 20px 0px;
+	
+}
+.side-sub{
+	clear: both;
+	margin:0px;
+	padding:0px;
+}
+.side-sub a{
+	color: #898989;
+	display: inline-block;
+	padding:10px 0px;
+}
+.side-sub li{
+	/*margin:10px 0px;*/
+}
+.side-sub li a:hover{
+	color:#c8a165;
+}
+.side-sub li.active{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.side-sub li.active:before{
+	content:"\e080";
+	color:#c8a165;
+	position: relative;
+	top:2px;
+}
+.side-sub li.active a{
+	color:#c8a165;
+}
+
+.sidebar-box{
+	color: #989898;
+	border:1px solid #dfdfdf;
+}
+.sidebar-subtitle{
+	border-bottom: 1px solid #dfdfdf;
+	padding:14px 19px;
+}
+.sidebar-content{
+	padding: 20px 18px;
+	height: 158px;
+	overflow-y:scroll;
+}
+.sidebar-content label{
+	display: block;
+	margin-bottom: 18px;
+}
 /**/

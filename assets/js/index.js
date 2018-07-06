@@ -39,32 +39,7 @@ $(function () {
      
     });
 
-//首页导航input框
-  $(".search-input").mouseover(function() {
-      $(this).animate({
-        "width" : "245px",
-        "height" : "34px"
-      })
-      //$(this).focus();
-      $(this).css("background-color","rgba(46,46,45,.9)")
-    }).focus(function(){
-        //鼠标停留到焦点时 显示固定宽度
-      $(this).css({"background-color":"rgba(46,46,45,.9)","width":"250px"});
 
-    }).blur(function(){
-      $(this).animate({
-        "width" : "40px",
-        "height" : "34px"
-      })
-      $(this).val("");
-      $(this).css({"background-color":"rgba(46,46,45,.0)"});
-    }).keyup(function(event){
-      if(event.keyCode==13){
-        $(this).val("");
-        $(this).blur();
-        $(this).css({"background-color":"rgba(46,46,45,.0)"});
-      }
-    });
 
   
 
@@ -76,15 +51,8 @@ $(function () {
   * describe: config
   *
   */
-  //***************设计师****************  
-  $(function(){
-    $('.designer dl').mouseover(function(){
-      $(this).children('dt').addClass('showEdate').stop(true)
-    })
-    $('.designer dl').mouseout(function(){
-     $(this).children('dt').removeClass('showEdate')
-    })
-  })
+  
+
   //***************瀑布流****************
   window.onload=window.onresize = function(){
       waterfall('main','pin');

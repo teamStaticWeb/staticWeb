@@ -1,4 +1,18 @@
+/* Navbar light */
 
+.navbar-transparent.navbar-light {
+	background: transparent;
+	webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.navbar-light {
+	background: rgba(89,89,89,0.8);
+	webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+/**************/
 .menus{
 	width:30%;
 }
@@ -23,70 +37,7 @@
 
 /*瀑布iyhc*/
 
-/*设计师*/
-.overHide{
-	clear:both;
-	width:100%;
-	overflow: hidden;
-}
-.designer{
-	width:102%;
-	margin-right:-2%;
-}
-.designer dl dt.showEdate{
-	opacity: 1;
-	transition: all 1s;
-}
-.designer dl{
-	width:25%;
-	float:left;
-	position: relative;
-	margin-bottom:20px;
-}
-.designer dl dd,.designer dl dt{
-	min-height:100%;
-}
-.designer dl dt{
-	background: #333;
-	color:#fff;
-	position: absolute;
-	width:92%;
-	text-align: center;
-	padding-top:102px;
-	opacity: 0;
-	transition:all 1s;
-}
-.buyer dl dt{
-	background: rgba(48,45,41,.50);
-}
-.designer dl dd{
-	/*text-align: center;*/
-}
-.designer dl dd img{
-	width:92%;
-}
 
-@media screen and (max-width:1000px){
-	.designer dl{
-		width:33.3%;
-	}
-}
-@media screen and (max-width:760px){
-	.designer dl{
-		width:50%;
-	}
-}
-@media screen and (max-width:500px){
-	.designer dl{
-		width:100%;
-	}
-	.designer dl dd img{
-		width:100%;
-	}
-	.designer dl dt{
-		width:100%;
-	}
-}
 
 /*瀑布流*/
 .bg-hui-f1{
