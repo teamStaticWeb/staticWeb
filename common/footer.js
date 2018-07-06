@@ -100,7 +100,7 @@ var footerHtml = `<div class="footer">
           </div>
         </div>
       </div>
-      https://www.jb51.net/html5/603468.html
+     
     </div>
   </div>`;
 
