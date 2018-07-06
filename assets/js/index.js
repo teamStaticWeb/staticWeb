@@ -42,25 +42,43 @@ $(function () {
      
     });
 
-
-  $(".search-input").focus(function() {
+  $(".search-input").mouseover(function() {
+      //$(this).show();
       $(this).animate({
-        "width" : "230px",
+        "width" : "250px",
         "height" : "34px"
       })
-
-    }).blur(function() {
+      // $(this).focus();
+      $(this).css("background-color","rgba(46,46,45,.9)")
+    }).mouseout(function() {
       $(this).animate({
-        "width" : "50px",
-        "height" : "34px"
-      })
-      $(this).val("");
-    }).mouseout(function(){
-      $(this).animate({
-        "width" : "50px",
+        "width" : "40px",
         "height" : "34px"
       })
       $(this).val("");
+      $(this).blur();
+      $(this).css({"background-color":"rgba(46,46,45,.0)"});
+    }).focus(function(){
+
+      $(this).css({"background-color":"rgba(46,46,45,.9)","width":"250px"});
+
+    }).blur(function(){
+      $(this).animate({
+        "width" : "40px",
+        "height" : "34px"
+      })
+      $(this).val("");
+      $(this).css({"background-color":"rgba(46,46,45,.0)"});
+      // $(this).blur();
+    }).keyup(function(event){
+     // console.log("event.keyCode",event.keyCode);
+      if(event.keyCode==13){
+        $(this).val("");
+        $(this).blur();
+        $(this).css({"background-color":"rgba(46,46,45,.0)"});
+      }
     });
+
+
 
 })

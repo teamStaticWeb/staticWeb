@@ -65,15 +65,7 @@
 .designer dl dd img{
 	width:92%;
 }
-/*买手推荐*/
-.designer.buyer dl{
-	margin-bottom:50px;
-	position: relative;
-}
-.designer.buyer dl div{
-	position: absolute;
-	bottom:-90px;
-}
+
 @media screen and (max-width:1000px){
 	.designer dl{
 		width:33.3%;
