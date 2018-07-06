@@ -37,11 +37,11 @@
 	font-size: 16px;
 	color: #fff;
 }*/
-.top-search-group input:hover{
+/*.top-search-group input:hover{
 	width: 230px;
 	background-color:rgba(46,46,45,.9);
 	transition: all .3s;
-}
+}*/
 /*.top-search-group:before{
 	content: "\e003";
     display: block;
@@ -216,7 +216,6 @@ ul.nav{
 /*轮播图样式*/
 .sowingMap{
 	width: 100%;
-	overflow: hidden;
 }
 .sowingMap img{
 	width: 100%;

@@ -41,27 +41,26 @@ $(function () {
       },
      
     });
-
+//首页导航input框
   $(".search-input").mouseover(function() {
-      //$(this).show();
       $(this).animate({
-        "width" : "250px",
+        "width" : "245px",
         "height" : "34px"
       })
-      // $(this).focus();
+      //$(this).focus();
       $(this).css("background-color","rgba(46,46,45,.9)")
-    }).mouseout(function() {
-      $(this).animate({
-        "width" : "40px",
-        "height" : "34px"
-      })
-      $(this).val("");
-      $(this).blur();
-      $(this).css({"background-color":"rgba(46,46,45,.0)"});
     }).focus(function(){
-
+        //鼠标停留到焦点时 显示固定宽度
       $(this).css({"background-color":"rgba(46,46,45,.9)","width":"250px"});
 
+    }).mouseout(function() {
+      // $(this).animate({
+      //   "width" : "40px",
+      //   "height" : "34px"
+      // })
+      // $(this).val("");
+      // $(this).blur();
+      // $(this).css({"background-color":"rgba(46,46,45,.0)"});
     }).blur(function(){
       $(this).animate({
         "width" : "40px",
@@ -69,9 +68,7 @@ $(function () {
       })
       $(this).val("");
       $(this).css({"background-color":"rgba(46,46,45,.0)"});
-      // $(this).blur();
     }).keyup(function(event){
-     // console.log("event.keyCode",event.keyCode);
       if(event.keyCode==13){
         $(this).val("");
         $(this).blur();
