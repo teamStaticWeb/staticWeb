@@ -22,22 +22,7 @@
 }
 
 /*瀑布iyhc*/
-*{
-	margin:0; padding:0;
-}
-/*#main{
-	position:relative;
-}
-.box{
-	padding:15px 0 0 15px;
-	float:left;
-}
-.pic{
-	padding:10px;
-	border:solid 1px #ccc;
-	box-shadow: 0 0 5px #ccc;
-}
-.pic img{width:165px;}*/
+
 /*设计师*/
 .overHide{
 	clear:both;
@@ -80,16 +65,19 @@
 .designer dl dd img{
 	width:92%;
 }
+/*买手推荐*/
+.designer.buyer dl{
+	margin-bottom:50px;
+	position: relative;
+}
+.designer.buyer dl div{
+	position: absolute;
+	bottom:-90px;
+}
 @media screen and (max-width:1000px){
 	.designer dl{
 		width:33.3%;
 	}
-	/*.designer dl dt{
-		padding-top:20px;
-		font-size:12px;
-		line-height:18px;
-		font-weight:200;
-	}*/
 }
 @media screen and (max-width:760px){
 	.designer dl{
@@ -107,6 +95,7 @@
 		width:100%;
 	}
 }
+
 /*瀑布流*/
 .bg-hui-f1{
 	background: #f7f7f7;
@@ -188,31 +177,6 @@
 	}
 	
 }
-/*.water{
-    -webkit-column-width:262px;
-    -moz-column-width:262px; 
-	  -webkit-column-gap:15px;
-	  -moz-column-gap:15px;
-	  height:1600px;
-}*/
-
-
-/*.water .box{
-	width:262px; 
-	background:#fff;
-	padding-bottom:18px;
-	margin:0 0 30px 0;
-}
-.water .box img{
-	width:100%;
-}
-
-.box a{
-	display: block;
-	color:#333333;
-	font-size:14px;
-	margin:20px 0px 0 20px;
-}*/
 /*footer*/
 .footer{
 	color:#fff;
