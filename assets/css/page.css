@@ -48,7 +48,7 @@
 	height: 60px;
 	border-radius: 30px;
 	margin:0px auto;
-	margin-top:70px;
+	margin-top:60px;
 	position: relative;
 	color:#333333;
 	font-size: 18px;
@@ -70,9 +70,16 @@
     margin-left: 21px;
 }
 
+#loadMore{
+	position: relative;
+	height:55px;
+	text-align:center;
+	color:#333;
+	font-size:12px;
+	cursor: pointer;
+}
 
-
-/*轮播图样式*/
+/*首页轮播图样式*/
 .sowingMap{
 	width: 100%;
 }
@@ -126,3 +133,38 @@ span.more{
 /*************index*****************/
 
 /*商品列表*/
+.goods{
+	margin-right: 0px;
+}
+.goods dl{
+	width: 33.334%;
+}
+.goods .ico-wrap{
+
+}
+.top-option{
+	position: relative;
+	height: 45px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.top-option i{
+	position: absolute;
+	left:0px;
+}
+.center-num{
+	width: 155px;
+	margin:0px auto;
+}
+.center-num span,.center-num select,.goods-order span,.goods-order select{
+	display: inline-block;
+}
+.center-num select,.goods-order select{
+	width: 73px;
+	margin:0px 10px;
+}
+.goods-order{
+	position: absolute;
+	right: 0px;
+	top:0px;
+}
