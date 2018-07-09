@@ -118,9 +118,12 @@ $(function () {
       // if(checkscrollside()){
           var oParent = document.getElementById('main');// 父级对象
           for(var i=0;i<dataInt.data.length;i++){
+              var oHref=document.createElement('a');
+              oHref.href='#';
+               oParent.appendChild(oHref); 
               var oPin=document.createElement('div'); //添加 元素节点
               oPin.className='pin';                   //添加 类名 name属性
-              oParent.appendChild(oPin);              //添加 子节点
+              oHref.appendChild(oPin);              //添加 子节点
               var oBox=document.createElement('div');
               oBox.className='box';
               oPin.appendChild(oBox);
@@ -129,10 +132,9 @@ $(function () {
               oBox.appendChild(oImg);
 
               //新增文字
-              var oHref=document.createElement('a');
-              oHref.href='#';
-              oHref.innerHTML = 'aaaa'
-              oBox.appendChild(oHref);
+              var oSpan=document.createElement('span');
+              oSpan.innerHTML = 'aaaa'
+              oBox.appendChild(oSpan);
               // 新增文字end
               console.log(oImg.height)
               imgH.push(oImg.height)

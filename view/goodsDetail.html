@@ -10,7 +10,28 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/custorm.css" />
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="wrapper-page container">
+		<!--面包屑-->
+		<div class="breadcrumb">
+		    <div class="breadcrumb_text">
+		      <span >
+		      	<a href="index.html" title="">
+		      		首页
+		      	</a>
+		      </span>
+		      
+		      <i>&nbsp; / &nbsp;</i>
+		      <span >
+		      	<a href="goodsList.html" title="">
+		      		商品列表
+		      	</a>
+		      </span> 
+		      <i>&nbsp; / &nbsp;</i>
+		      ALL &nbsp; PRODUCTS
+		      	
+			</div>
+        </div>
+      <!--面包屑-->
 		<!--商品轮播图-->
 		<div class="row">
 		  <div class="col-md-6">
@@ -29,13 +50,9 @@
 		          <img src="../assets/img/dd-4.jpg">
 		        </div>
 		      </div>
-		      <!-- Add Pagination -->
-		      <div class="swiper-pagination"></div>
 		      <!-- Add Arrows -->
 		      <div class="swiper-button-next arrow-right"></div>
 		      <div class="swiper-button-prev arrow-left"></div>
-		      
-		      
 		    </div>
 		    <div class="swiper-container gallery-thumbs">
 		      <div class="swiper-wrapper">
@@ -53,15 +70,174 @@
 		        </div>
 		      </div>
 		      <!-- Add Pagination -->
-		      <div class="swiper-pagination"></div>
+		      <!-- <div class="swiper-pagination"></div> -->
 		      <!-- Add Arrows -->
 		      <!-- <div class="swiper-button-next"></div>
 		      <div class="swiper-button-prev"></div> -->
 		      
 		    </div>
 		  </div>
-		  <div class="col-md-6">bbb</div>
+		  <div class="col-md-6">
+			<div class="detais-content">
+				<h5 class="back-tit">
+					<div class="back-page"><a href="goodsList.html">< 返回上一页</div>
+					<!-- <div class="nextIcon">
+						<span  class="glyphicon glyphicon-chevron-right"></span>
+						<span  class="glyphicon glyphicon-chevron-right"></span>
+					</div> -->
+				</h5>
+				<!--swiper-->
+				<div>
+					<h1 class="details-tit">stanford bridge</h1>
+					<div class="hui-tit">sldkfjlfkj kj;l </div>
+					<p>产地：意大利</p>
+					<p>风格：简约舒适</p>
+					<div class="details-bord">
+						Fjords舒适椅，为挪威知名家具集团Hjellegjerde公司旗下之品牌，该集团自1941年成立以来，迄今已为挪威国内最大家具集团，并成为挪威 家具业发展的领导者。Hjellegjerde遍布全球的经销网络，使其确切地掌握全球市场脉动，了解不同地区顾客的需求，才能设计出最符合市场趋势，以及顾客们的在地化细微要求。拥有Hjellegjerde集团优势背景的Fjords舒适椅，为产品操刀设计的设计师皆获奖无数，设计师间的合作与创意激情，也常创作出非凡的产品。有些设计师本身为珠宝设计背景，使金属材质亦能柔软与坚硬并存。
+					</div>
+				</div>
+				<!--swiper end -->
+				<div>
+					
+					<p class="ico-wraps">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<img src="../assets/img/question.jpg" alt="">
+	           		</p>
+				</div>
+			</div>
+		  </div>
 		</div>
+		<div class="details-share share">
+			  <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title));void(0)"><img src="../assets/img/twitterOn.png"/></a>
+			  <a class="fav_facebook" rel="nofollow" href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));void(0)"><img src="../assets/img/facebookOn.png"/></a>
+			  <a href="http://v.t.sina.com.cn/share/share.php?url=http://www.jb51.net&title='分享内容'" target="_blank"><img src="../assets/img/sinaOn.png"/></a> 
+			  <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank"><img src="../assets/img/qqOn.png"/></a>
+			  <span id="weixin2">
+			  	<img src="../assets/img/weixinOn.png"/>
+			  	<div class="weixin2">
+				    <span class="close close2">X</span>
+				    <div>
+				      <img src="../assets/img/foot/weixinCode.png">
+				      <p>扫码分享</p>
+				    </div>
+				  </div>
+			  </span>
+			  
+		</div>
+		<div class="row">
+			<ul class="col-md-3 details-tab" role="tablist">
+	          <li role="presentation" class="active">
+	            <a href="#goodsDetails" aria-controls="home" role="tab" data-toggle="tab">
+	              商品介绍
+	            </a>
+	          </li>
+	          <li role="presentation">
+	            <a href="#goodsInfo" aria-controls="profile" role="tab" data-toggle="tab">
+	              商品规格
+	            </a>
+	          </li>
+	        </ul>
+			<div class="tab-content col-md-8 ditails-tab-box">
+	          <div role="tabpanel" class="tab-pane active" id="goodsDetails">
+	            The Mammoth Sofa is based on curves and shape of the iconic Mammoth Chair. Some call it a love-seat, we simply call it the Mammoth Sofa. t's a beautiful piece of furniture with the comfort of a lounge chair but the size to fit at least two people. The two wings provide the feeling of privacy and serenity making the Mammoth Sofa perfect for public spaces, hotel lobbies, offices or just a modern home.
+
+	          </div>
+	          <div role="tabpanel" class="tab-pane" id="goodsInfo">
+	            fffff2
+	          </div>
+	        </div>
+		</div>
+		<!--相关商品-->
+		<div class="container other-goods">
+		   <img src="../assets/img/index_title.jpg" alt="" >
+		     
+		 </div>
+		<div class="designer buyer swiper-container swiperText">
+		  <div class="swiper-wrapper">
+		  	<div class="swiper-slide">
+			  <a href="goodsDetail.html">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+			<div class="swiper-slide">
+			  <a href="#">
+			    <dl>
+			      <dd>
+			       <img src="../assets/img/picture/img04.jpg">
+			      </dd>
+			      <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+			    </dl>
+			  </a>
+			</div>
+		  </div>
+		  <div class="details-arrow">
+			  <!-- Add Pagination -->
+			  <!-- <div class="swiper-pagination"></div> -->
+			  <!-- Add Arrows -->
+			  <div class="swiper-button-next text-next">
+			  	<span  class="glyphicon glyphicon-chevron-right"></span>
+			  </div>
+			  <div class="swiper-button-prev text-prev">
+			  	<span  class="glyphicon glyphicon-chevron-left"></span>
+			  </div>
+		  </div>
+		</div>
+		<!--相关商品end-->
 	</div>
 	<script src="../common/app.js"></script>
 	<script src="../assets/js/goodsDetail.js"></script>

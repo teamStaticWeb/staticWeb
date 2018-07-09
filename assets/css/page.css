@@ -69,7 +69,9 @@
 	margin-right: 44px;
     margin-left: 21px;
 }
-
+.ico-wrap span:hover{
+	color:#c8a165;
+}
 #loadMore{
 	position: relative;
 	height:55px;

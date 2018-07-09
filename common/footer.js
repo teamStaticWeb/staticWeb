@@ -9,7 +9,7 @@ var footerHtml = `<div class="footer">
             <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank"><img src="../assets/img/foot/qq.png"/></a>
             <span id="weixin"><img src="../assets/img/foot/weixin.png"/></span>
             <div class="weixin">
-              <span class="close">X</span>
+              <span class="close close1">X</span>
               <div>
                 <img src="../assets/img/foot/weixinCode.png">
                 <p>扫码分享</p>
@@ -78,10 +78,10 @@ var footerHtml = `<div class="footer">
                 
               </dd>
               <dd class="row">
-                <div  class="col-md-6">
+                <div  class="col-md-6 col-xs-6">
                 <img src="../assets/img/foot/amazon.jpg" />
               </div>
-              <div  class="col-md-6">
+              <div  class="col-md-6 col-xs-6">
                 <img src="../assets/img/foot/visa.jpg" />
               </div>
                 
@@ -91,12 +91,12 @@ var footerHtml = `<div class="footer">
           </div>
         </div>
         <div class="row footer-bottom">
-          <p class="col-md-7">津ICP备15003667号    快递查询 天津尚柏电子商务有限公司©2016</p>
-          <div class="col-md-5">
-            <a href="#">关于我们</a>
-            <a href="#">配送信息</a>
-            <a href="#">如何选购</a>
+          <p class="col-md-6 col-xs-6">津ICP备15003667号    快递查询 天津尚柏电子商务有限公司©2016</p>
+          <div class="col-md-6 col-xs-6 text-right">
             <a href="#">购物须知</a>
+            <a href="#">如何选购</a>
+            <a href="#">配送信息</a>
+            <a href="#">关于我们</a>
           </div>
         </div>
       </div>

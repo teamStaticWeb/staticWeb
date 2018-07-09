@@ -24,7 +24,8 @@ var      css = '<!--custom start-->'
                +'<link href="../assets/css/1200px.css" type="text/css" rel="stylesheet">'
                +'<!--custom end-->';
                
-var template = '<script type="text/javascript" src="../common/header.js"></script>';
+var template = '<script type="text/javascript" src="../common/header.js"></script>'
++'<script type="text/javascript" src="../common/login.js"></script>';
 
 document.write(pluginCss,css,template);
 

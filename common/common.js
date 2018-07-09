@@ -180,6 +180,13 @@ $(function(){
         $(this).blur();
         $(this).css({"background-color":"rgba(46,46,45,.0)"});
       }
+    }).mouseout(function(){
+       $(this).animate({
+        "width" : "40px",
+        "height" : "34px"
+      })
+       $(this).val('');
+      $(this).css({"background-color":"rgba(89,89,89,1)"});
     });
     /*侧边栏*/
     $(".side-sub").find("li").click(function(){
@@ -194,4 +201,6 @@ $(function(){
     $('.designer dl').mouseout(function(){
      $(this).children('dt').removeClass('showEdate')
     })
+
+    
 })

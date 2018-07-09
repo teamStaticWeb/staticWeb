@@ -4,10 +4,10 @@ var headerHtml = `<!-- LAYOUT-->
   <div class="overlay">
     <ul class="">
       <li  class="current">
-        <a href="#" title="首页">首页</a>
+        <a href="index.html" title="首页">首页</a>
       </li>
       <li>
-        <a href="#" title="商品">商品</a>
+        <a href="goodsList.html" title="商品">商品</a>
       </li>
       <li>
         <a href="#" title="品牌">品牌</a>
@@ -36,7 +36,7 @@ var headerHtml = `<!-- LAYOUT-->
         <span class="email">yimijia@163.com</span>
       </div>
       <div class="pull-right nav-top-right">
-        <span class="login">登录</span> |
+        <span class="login" data-toggle="modal" data-target="#myModal">登录/注册</span> |
         <span class="myOrder">我的订单</span>
         <i class="myCollect">我的收藏</i>
       </div>

@@ -150,6 +150,7 @@ ul.nav{
 	font-size:16px;
 	margin-top:55px;
 	margin-bottom:25px;
+	color:#fff;
 }
 .footer-middle{
 	padding-top:60px;
@@ -190,7 +191,7 @@ ul.nav{
 
 .footer-bottom{
 	border-top:solid 1px #333;
-	padding:20px 0 10px 0;
+	padding:15px 0 10px 0;
 	color:#898989;
 }
 .footer-bottom a{
@@ -198,13 +199,16 @@ ul.nav{
 	color:#898989;
 	font-size:12px;
 	margin: 0 0% 0 11%;
+	float:right;
 }
 
-#weixin{
+#weixin,#weixin2{
 	cursor:pointer;
 }
-
-.weixin{
+#weixin2{
+	position: relative;
+}
+.weixin,.weixin2{
 	position: absolute;
 	top:-50px;
 	left:300px;
@@ -217,7 +221,11 @@ ul.nav{
 	padding-top:20px;
 	padding-left:20px;
 }
-.weixin p{
+.weixin2{
+	top: -14px;
+    left: 39px;
+}
+.weixin p,.weixin2 p{
 	color:#333;
 	line-height: 40px;
 }
@@ -314,3 +322,89 @@ ul.nav{
 	margin-bottom: 18px;
 }
 /**/
+
+
+/*注册登录*/
+.login .modal-dialog {
+	width:370px;
+	/*height:370px;*/
+}
+.login .modal-header{
+	border-bottom:solid 1px #e9e8e8;
+	height:44px;
+}
+.login .modal-footer{
+	border:none;
+}
+.login-tit{
+	width:80%;
+	clear:both;
+	overflow: hidden;
+	margin:-59px -14px 0 -14px;
+}
+.login-tit li{
+	float:left;
+	width:120px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	border-right:solid 1px #e9e8e8;
+	font-family: '微软雅黑';
+	font-size:14px;
+	color:#acacac;
+}
+/*.login-tit.nav-tabs>li>a{
+	border:none;
+}*/
+.login-tit li a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.login-tit li.active a{
+	color:#181818;
+	border-bottom:solid 1px #181818;
+}
+.login-box{
+	margin-top:30px;
+}
+.login-box label{
+	display: block;
+	padding:0 28px 10px 28px;
+}
+.login-box label input[type="text"]{
+	width:100%;
+	height:32px;
+	line-height: 32px;
+	border:solid 1px #999;
+	padding:0 10px;
+}
+.red1{
+	color:#f44336;
+	font-size:12px;
+}
+.login-btn{
+	background: #c8a165;
+	color:#fff;
+	width:288px;
+	height:46px;
+	line-height: 46px;
+	text-align:center;
+	cursor: pointer;
+	margin-top:22px;
+}
+button.close-btn{
+	font-size:22px;
+	padding-top:6px;
+	padding-right:6px;
+	font-weight:200;
+	display: inline-block;
+}
+@media screen and (max-width:670px){
+	.nav-top-wrap{
+		height:40px!important;
+	}
+	.c-nav-top .nav-top-right{
+		margin-top:-16px;
+	}
+}

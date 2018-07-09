@@ -5,8 +5,18 @@ $(function(){
     $('#weixin').click(function(){
       $(this).next().show()
     })
-    $('.close').click(function(){
-      $(this).parent().hide()
+    $('#weixin2').click(function(){
+      // $(this).next().show()
+      //console.log("sss");
+      $(this).find(".weixin2").show();
+    })
+    $('.close1').click(function(){
+      $(this).parent().hide();
+    })
+
+    $('.close2').click(function(){
+      //console.log("ssss",$(this).parent().hide());
+      $(this).parent().hide();
     })
 
 

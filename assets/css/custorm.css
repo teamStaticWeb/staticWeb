@@ -20,3 +20,144 @@
 	margin-left:20px;
 	display: block;
 }
+/**商品详情页**/
+.back-tit{
+	border-bottom:solid 1px #e1e1e1;
+	padding-bottom:25px;
+	margin-bottom:-54px;
+}
+.details-tit{
+	
+}
+.detais-content{
+	line-height:28px;
+	font-size:14px;
+	color:#333;
+
+}
+.detais-content h1{
+	font-size:28px;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+.detais-content p{
+	margin-bottom:20px;
+	font-weight:700;
+}
+.hui-tit{
+	font-size:14px;
+	color:#898989;
+	margin-bottom:35px;
+}
+.details-bord{
+	border-bottom:solid 1px #e1e1e1;
+	padding-bottom:50px;
+}
+
+.ico-wraps{
+	background: #fff;
+	width: 90%;
+	height: 60px;
+	border-radius: 30px;
+	margin:0px auto;
+	margin-top:60px;
+	position: relative;
+	color:#333333;
+	font-size: 18px;
+
+}
+.ico-wraps:before{
+	content: "|";
+	display: block;
+	width: 1px;
+	height: 30px;
+    position: absolute;
+    color:#dadada;
+    left:15%;
+    top:28%;
+}
+.ico-wraps span,.ico-wraps img{
+	line-height: 60px;
+	margin-right: 44px;
+    margin-left: 21px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.details-share{
+	margin:20px 0;
+	text-align: center;
+	padding:10px 0;
+	border-top:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+}
+
+.details-tab li{
+	clear:both;
+	overflow: hidden;
+	padding:10px 0;
+	padding-left:15px;
+}
+.details-tab li.active a{
+	color:#c8a165;
+}
+.details-tab li.active{
+	color:#c8a165;
+	position: relative;
+
+}
+.details-tab li.active:before{
+	position: absolute;
+	content:'>';
+	width:30px;
+	height:1px;
+	color:#c8a165;
+	top:10px;
+	left:0%;
+}
+.ditails-tab-box{
+	border-left:solid 1px #ccc;
+	padding-left:44px;
+	min-height:400px;
+}
+/*swiper*/
+.swiperText{
+	position: relative;
+	margin-top:-70px;
+	padding-top:56px;
+}
+.details-arrow{
+	position: absolute;
+	top:23px;
+	right:0px;
+	width:68px;
+
+}
+.swiper-button-next.text-next{
+	background: none;
+}
+.swiper-button-prev.text-prev{
+	background: none;
+}
+.details-arrow div span.glyphicon{
+	padding:5px;
+	font-weight:100;
+	font-size:10px;
+}
+.other-goods{
+	padding:40px 0 40px 0;
+	border-top:solid 1px #ccc;
+	margin-top:40px;
+}
+.designer.swiperText dl{
+	width:100%;
+}
+
+/*轮播*/
+.gallery-top{
+	margin-bottom:12px;
+}
+
+.gallery-top img{
+	width:100%;
+	height:auto!important;
+}

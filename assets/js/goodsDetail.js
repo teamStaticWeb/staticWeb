@@ -18,12 +18,29 @@ $(function () {
       loop: true,
       loopedSlides: 5, //looped slides should be the same
       slideToClickedSlide: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
     });
     galleryTop.controller.control = galleryThumbs;
     galleryThumbs.controller.control = galleryTop;
      // 带预览效果的轮播 end
+
+     //轮播文字
+     var swiper = new Swiper('.swiperText', {
+           slidesPerView: 4,
+           spaceBetween: 30,
+           slidesPerGroup: 4,
+           loop: false,
+           loopFillGroupWithBlank: true,
+           pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+           },
+           navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+           },
+         });
 	})
