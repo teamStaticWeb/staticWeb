@@ -12,11 +12,11 @@ $(function(){
     })
     $('.close1').click(function(){
       $(this).parent().hide();
-    })
+    });
 
     $('.close2').click(function(){
-      //console.log("ssss",$(this).parent().hide());
-      $(this).parent().hide();
+      $('.weixin2').hide();
+      console.log($(this).parent().hide())
     })
 
 

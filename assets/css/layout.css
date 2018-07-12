@@ -212,8 +212,6 @@ ul.nav{
 	position: absolute;
 	top:-50px;
 	left:300px;
-	width:200px;
-	height:230px;
 	background: #fff;
 	border:solid 1px #ccc;
 	z-index: 1000;
@@ -221,6 +219,7 @@ ul.nav{
 	padding-top:20px;
 	padding-left:20px;
 }
+.weixin img{width:200px;}
 .weixin2{
 	top: -14px;
     left: 39px;
@@ -228,6 +227,7 @@ ul.nav{
 .weixin p,.weixin2 p{
 	color:#333;
 	line-height: 40px;
+	text-align:center;
 }
 .close{
 	position: absolute;

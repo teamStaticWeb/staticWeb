@@ -172,6 +172,11 @@
 .ico-wraps span:hover{
 	color:#c8a165;
 }
+.weixin2 div{
+	margin-top:3px;
+	margin-left:-17px;
+}
+/*icon*/
 .icon-twitter:before { font-size:20px; }
 
 .icon-weixin:before { font-size:20px; }
