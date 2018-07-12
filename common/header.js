@@ -10,6 +10,9 @@ var headerHtml = `<!-- LAYOUT-->
         <a href="goodsList.html" title="商品">商品</a>
       </li>
       <li>
+        <a href="#" title="空间">空间</a>
+      </li>
+      <li>
         <a href="#" title="品牌">品牌</a>
       </li>
       <li>
@@ -57,6 +60,9 @@ var headerHtml = `<!-- LAYOUT-->
       <ul class="nav navbar-nav  pull-right">
         <li  class="current">
           <a href="#" title="首页">首页</a>
+        </li>
+        <li>
+          <a href="#" title="空间">空间</a>
         </li>
         <li>
           <a href="#" title="商品">商品</a>

@@ -241,6 +241,7 @@ ul.nav{
 /*内页主体*/
 .wrapper-page{
 	margin-top: 140px;
+	overflow: hidden;
 }
 /*面包屑*/
 .breadcrumb{
@@ -253,6 +254,9 @@ ul.nav{
 .sidebar{
 	border-right: 1px solid #e1e1e1;
 	font-family: "黑体";
+	height:100%;
+	padding-bottom:9999px;
+	margin-bottom:-9999px;
 }
 .sidebar-title{
 	margin-bottom: 30px;
@@ -317,10 +321,10 @@ ul.nav{
 	height: 158px;
 	overflow-y:scroll;
 }
-.sidebar-content label{
+/*.sidebar-content label{
 	display: block;
 	margin-bottom: 18px;
-}
+}*/
 /**/
 
 

@@ -1,19 +1,19 @@
-首页----index----完成
-登录----login
-注册----register
-搜索结果--searchResult
+首页----index---------------完成
+登录----login---------------完成
+注册----register ------------完成
+搜索结果--searchResult------完成
 
 商品--
 	商品列表页---goodsList---完成
 
-	商品详情页---goodsDetail
+	商品详情页---goodsDetail--完成
 
 
 品牌--
 
-	品牌列表----brandList
+	品牌列表----brandList----完成
 
-	品牌详情---brandDetail
+	品牌详情---brandDetail----完成
 
 设计师
 	设计师列表页--designerList

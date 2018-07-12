@@ -188,7 +188,13 @@ $(function(){
        $(this).val('');
       $(this).css({"background-color":"rgba(89,89,89,1)"});
     });
+
+
     /*侧边栏*/
+    // console.log(".wrapper-page.height",$(".wrapper-page").height());
+    // var wrapperPageHeight = parseInt($(".wrapper-page").height())-502+"px";
+    // var fwheight = 0-parseInt($(".wrapper-page").height())+502+"px";
+    // $(".sidebar").css({"padding-bottom":wrapperPageHeight,"margin-bottom":fwheight});
     $(".side-sub").find("li").click(function(){
     	$(this).addClass("active");
     	$(this).siblings().removeClass("active");

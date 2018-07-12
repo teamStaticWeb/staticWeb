@@ -8,86 +8,197 @@
   <script src="../common/css.js"></script>
 </head>
 <body>
-	
-	<div class="web-wrapper clearfix" id="jWrapper">
-		<div class="main">
-			<div class="index-top clearfix row">
-
-            	<div class="col-md-5 col-sm-5">
-					<h2 class="login-title">购票登录</h2>
-					<ul class="login-wrap">
-		            	<li>
-		            		<input class="user" id="user" required placeholder="请输入员工号或邮箱">
-		            	</li>
-		                <li>
-		                	<input class="password" id="password" type="password" required placeholder="请输入密码">
-		                </li>
-		                <li>
-		                	<input class="reg" id="reg" required placeholder="请输入图片中的内容" >
-		                	<img class="jImg" src="../../assets/img/temp_img.png">
-		                </li>
-	            	</ul>
-					<div class="login-warp">
-						<button class="btn-login" id="jLoginBtn" type="submit">登&nbsp;录</button>
-					</div>
-					<p class="login-text">
-			            <a class="register">购票注册</a>
-			            <a class="forgetpassword">忘记密码</a>
-		           </p> 
-	            </div>
-				<div class="col-md-7 col-sm-7">
-					<img class="wb100" src="../../assets/img/picture/index_ad_02.jpg">
-				</div>
+<div class="wrapper-page container">
+		<!--面包屑-->
+		<div class="breadcrumb">
+		    <div class="breadcrumb_text">
+		      <span >
+		      	<a href="index.html" title="">
+		      		首页
+		      	</a>
+		      </span> 
+		      <i>&nbsp; / &nbsp;</i>
+		      
+		      ALL &nbsp; PRODUCTS
+		      	
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="item-title help">帮助中心</div>
-					<div class="item">
-						<ul>
-							<li><a href="">最新公告</a></li>
-							<li><a href="">最新公告</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="item-title info">政策信息 <a href="#">&gt;&gt;更多</a></div>
-					<div class="item">
-						<ul>
-							<li><a href="">最新公告</a> <span>2014-11-13</span></li>
-						</ul>
-					</div>
-				</div>
+        </div>
+      <!--面包屑-->
+      <div class="row">
+	      <div class="col-md-3 col-sm-3 col-xm-3 sidebar">
+			<div class="brandBigImg">
+				<a href="#"><img src="../assets/img/brand.jpg"></a>
 			</div>
-			<div class="index-bottom row">
-				<h6>关于购票服务问题：</h6>
-				<p>如需客票改签、服务投诉、购买保险、行程单打印等业务请致电所属航空公司客服热线：</p>
-				<p>中国国际航空:95583-1-8-2</p>
-				<p>中国南方航空:40088-95539</p>
-				<p>中国东方航空:服务热线40088-95530，电话拨通后输入大客户编码9090900</p>
-				<p>海南航空:订单咨询及服务 95339-5（工作时间08:00-24:00）；机票改签、升舱服务 95339（24小时）</p>
-				<p>厦门航空:95557-1-8-2</p>
-				<p>深圳航空:95361-6</p>
-				<p>山东航空:95369</p>
-				<p>春秋航空:95524-1-8</p>
-				<p>河北航空:0311-96699</p>
-				<p>大新华航空:订单咨询及服务 95339-5（工作时间08:00-24:00）；机票改签、升舱服务 95339（24小时）</p>
-				<p>吉祥航空：021-95520</p>
-				<p>四川航空：95378-1-5-2</p>
-				<p>昆明航空：0871-96598</p>
-				<p>中联航空：400-102-6666</p>
-				<p>长龙航空：0571-89999999</p>
-				<p>华夏航空：400-600-6633</p>
-				<p>江西航空：0791-96300</p>
-				<p>首都航空：95375</p>
-
+			<div class="brandText">
+				<p>Atlantic Tiles存在的根基是在陶瓷领域的声望、质量承诺和创新精神。在技术、设计和生产中，我们一直在不断发展。</p>
+				<p>在当今这个瞬息万变的环境中，我们更注重客户的满意度，我们致力于为客户提供一系列高质量的、符合最新趋势的产品。我们适应了消费者的最高需求，以及消费者的用途和适用空间。</p>
+				<p>我们的重中之重在产品质量，我们对我们的产品和工艺进行严格的测试，将西班牙传统技术与尖端技术相结合，我们努力让客户去想象、创造最需要陶瓷产品的空间，从而满足他们的需求。</p>
 			</div>
-
-
-		</div>
-	</div>
-	<footer>
-
-	</footer>
+	      </div>
+	      <div class=" col-md-9 col-sm-8 col-xs-8  main">
+	      	<div class="top-option clearfix">
+	      		<i class="glyphicon glyphicon-th"></i>
+	      		<div class="center-num">
+	      			<span>展示</span>
+	      			<select class="form-control">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<span>/ 页</span>
+	      		</div>
+	      		<div class="goods-order">
+	      			<span>排列方式</span>
+	      			<select class="form-control">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+	      		</div>
+	      	</div>
+	      	
+	      	<div class="designer buyer goods clearfix">
+		      <a href="goodsDetail.html">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		           <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		           <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		      </a>
+		      <a href="#">
+		        <dl>
+		          <dt>
+		            <p class="ico-wrap">
+		            	<span class="glyphicon glyphicon-heart-empty"></span>
+		            	<span class="glyphicon glyphicon-eye-open"></span>
+		            </p>
+		          </dt>
+		          <dd>
+		            <img src="../assets/img/picture/img04.jpg">
+		          </dd>
+		          <div class="buyer-text"><span>BAILEY SAILEN CHAI</span></div>
+		        </dl>
+		        
+		      </a>
+		      
+		    </div>
+	      	<nav class="clearfix" aria-label="page navigation">
+			  <ul class="pagination">
+			    <li class="previous">
+			      <a href="#" aria-label="previous">
+			        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      </a>
+			    </li>
+			    <li class="active"><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li><a href="#">4</a></li>
+			    <li><a href="#">5</a></li>
+			    <li class="next">
+			      <a href="#" aria-label="next">
+			        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+	      </div>
+    	</div>
+  </div>
 	<script src="../common/app.js"></script>
 </body>
 </html>
