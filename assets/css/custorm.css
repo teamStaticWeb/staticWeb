@@ -161,3 +161,27 @@
 	width:100%;
 	height:auto!important;
 }
+.details-share span.icon,.share span.icon{
+	display: inline-block;
+	margin:10px 10px;
+	color:#fff;
+}
+.details-share span.icon{
+	color:#000;
+}
+.ico-wraps span:hover{
+	color:#c8a165;
+}
+.icon-twitter:before { font-size:20px; }
+
+.icon-weixin:before { font-size:20px; }
+
+.icon-facebook:before { font-size:20px; }
+
+.icon-youjian:before { font-size:20px; }
+
+.icon-weibo:before { font-size:20px; }
+
+.icon-qq:before { font-size:20px; }
+
+.icon-question:before { font-size:20px; }

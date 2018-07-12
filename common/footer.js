@@ -3,11 +3,20 @@ var footerHtml = `<div class="footer">
       <div class="container footer-top">
         <div class="row">
           <div class="share col-md-5">
-            <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title));void(0)"><img src="../assets/img/foot/twitter.png"/></a>
-            <a class="fav_facebook" rel="nofollow" href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));void(0)"><img src="../assets/img/foot/facebook.png"/></a>
-            <a href="http://v.t.sina.com.cn/share/share.php?url=http://www.jb51.net&title='分享内容'" target="_blank"><img src="../assets/img/foot/sina.png"/></a> 
-            <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank"><img src="../assets/img/foot/qq.png"/></a>
-            <span id="weixin"><img src="../assets/img/foot/weixin.png"/></span>
+            <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title));void(0)">
+              <span class="icon iconfont icon-twitter"></span>
+            </a>
+            <a class="fav_facebook" rel="nofollow" href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));void(0)">
+              <span class="icon iconfont icon-facebook"></span>
+            </a>
+            <a href="http://v.t.sina.com.cn/share/share.php?url=http://www.jb51.net&title='分享内容'" target="_blank">
+              <span class="icon iconfont icon-weibo"></span>
+            </a> 
+            <a href="http://connect.qq.com/widget/shareqq/index.html?title=qqhaoyou&url=http://www.jb51.net&desc=还不错哦&pics=&site=优酷" target="_blank">
+              <span class="icon iconfont icon-qq"></span>
+            </a>
+            <span id="weixin" class="icon iconfont icon-weixin">
+            </span>
             <div class="weixin">
               <span class="close close1">X</span>
               <div>
@@ -20,7 +29,7 @@ var footerHtml = `<div class="footer">
           <div class="f-email col-md-7">
             <span>SUBCRIBLE  NEWSLETTER</span>
             <input type="text" name="" placeholder="Enter your email address">
-            <img src="../assets/img/foot/f-email.png" />
+            <span class="icon iconfont icon-youjian">
           </div>
         </div>
       </div>

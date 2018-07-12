@@ -11,9 +11,9 @@ var pluginCss = '<!--plugin css start-->'
 		       +'<!--plugin css end-->';
 
 var      css = '<!--custom start-->'
+               +'<link href="../assets/fonts/iconfont.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/reset.css" type="text/css" rel="stylesheet">'
 			+'<link href="../assets/css/base.css" type="text/css" rel="stylesheet">'
-			+'<link href="../assets/css/fonts.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/layout.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/common.css" type="text/css" rel="stylesheet">'
                +'<link href="../assets/css/plugin.css" type="text/css" rel="stylesheet">'
