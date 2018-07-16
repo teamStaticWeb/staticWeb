@@ -121,7 +121,7 @@
 .index-title-ul li.more a:before{
 	display: none;
 }
-.index-title-ul li.more a,span.more a{
+.index-title-ul li.more a,span.more a,.more a{
 	color: #cca76f;
 	font-weight: bold;
 }
@@ -260,4 +260,51 @@ span.more{
 	position: absolute;
     left: 20px;
     font-size: 14px;
+}
+/*设计师列表*/
+.designer-item{
+	margin-bottom: 30px;
+}
+.designer-bg{
+	background: #f7f7f7;
+	height: 100%;
+	padding:5%;
+}
+.designer-user{
+	padding:0px;
+}
+.designer-user img{
+	width: 100%;
+	height: 100%;
+	border-radius: 98px;
+}
+.designer-img img{
+	width: 100%;
+	height: 100%;
+}
+.designer-text{
+	line-height: 33px;
+	padding-left: 8%;
+    font-size: 13px;
+    color: #333333;
+}
+.designer-text p{
+	min-height: 110px;
+	overflow: hidden;
+}
+.designer-text h5{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.designer-text h5 span{
+	font-size: 19px;
+	padding-right: 5px;
+}
+.article-img{
+	padding:0px;
+}
+.article-img img{
+	width: 100%;
+	height: 100%;
 }

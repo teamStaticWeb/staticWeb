@@ -190,3 +190,38 @@
 .icon-qq:before { font-size:20px; }
 
 .icon-question:before { font-size:20px; }
+
+/*bg-hui*/
+.bg-hui-f7{
+	background: #f7f7f7
+}
+.desiger img{
+	display: block;
+	margin:30px auto;
+}
+.desiger h2{
+	text-align: center;
+	padding:40px 0 20px 0;
+}
+.desiger p{
+	padding:5px 10% 50px 10%;
+	line-height: 30px;
+}
+.d-detail-img{
+	clear:both;
+	overflow: hidden;
+}
+.d-detail-img div{
+	width:22%;
+	float:left;
+	margin:15px 4% 15px 0;
+	max-height:270px;
+	overflow: hidden;
+}
+.d-detail-img div:nth-of-type(4n){
+	margin-left:0;
+	margin-right:0;
+}
+.d-detail-img div img{
+	width:100%;
+}
