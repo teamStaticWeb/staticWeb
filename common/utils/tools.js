@@ -9,6 +9,34 @@ var F = {
 	    result = $.trim(result.replace(/'/g, '\''));
 
 	    return '\''+result+'\'';
+	},
+	beforeDate:function(date){
+		var now = new Date(date);
+        now = new Date(now.getTime() - 86400000);
+        var yyyy = now.getFullYear(), mm = (now.getMonth() + 1).toString(), dd = now
+                .getDate().toString();
+        if (mm.length == 1) {
+            mm = '0' + mm;
+        }
+        if (dd.length == 1) {
+            dd = '0' + dd;
+        }
+       // alert(yyyy + '-' + mm + '-' + dd+' ');
+       return yyyy + '-' + mm + '-' + dd
+	},
+	afterDate:function(date){
+		var now = new Date(date);
+        now = new Date(now.getTime() + 86400000);
+        var yyyy = now.getFullYear(), mm = (now.getMonth() + 1).toString(), dd = now
+                .getDate().toString();
+        if (mm.length == 1) {
+            mm = '0' + mm;
+        }
+        if (dd.length == 1) {
+            dd = '0' + dd;
+        }
+       // alert(yyyy + '-' + mm + '-' + dd+' ');
+       return yyyy + '-' + mm + '-' + dd
 	}
 };
 var ajax = {

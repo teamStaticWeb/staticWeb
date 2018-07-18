@@ -308,3 +308,162 @@ span.more{
 	width: 100%;
 	height: 100%;
 }
+/*收货地址*/
+.address-text{
+	margin-bottom: 50px;
+}
+.address-text .form-group{
+	width: 275px;
+	color: #303030;
+	margin-bottom: 24px;
+}
+.address-text .form-group i{
+	color: red;
+}
+.address-text .form-control{
+	border:1px solid #313131;
+	height: 40px;
+}
+
+.address-btn{
+	width: 166px;
+	height: 40px;
+	background-color:  #c9a164;
+	color: #fff;
+	border:none;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top:8px;
+}
+.table-wrap .table-bordered{
+	border:1px solid #313131;
+	color: #2e2e2e;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border-bottom-width: 1px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border:1px solid #313131;
+}
+.table-bordered>thead{
+	background-color:#e2e2e2;
+}
+
+.user-center-left{
+	font-size: 14px;
+}
+.user-center-left a{
+	display: block;
+	line-height: 40px;
+}
+.user-center-left a.active{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #c2a77c;
+}
+.user-center-left a.active:before{
+	content: "\e258";
+    color: #c8a165;
+    position: absolute;
+    top: 2px;
+    left:-20px;
+}
+.userImgWrap{
+	border:1px solid #323232;
+	width: 97px;
+	height: 97px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 8px;
+	position: relative;
+}
+.userImgWrap img{
+	width: 97px;
+	height: 97px;
+}
+.userImgWrap .uploadify-button{
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: none;
+    margin: 0px;
+    border: none;
+}
+.myYear,.myMonth,.myDay{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	background: url("../img/date-left.jpg") 94% no-repeat;
+}
+.birthday{
+	position: relative;
+}
+.birthday span{
+	position: absolute;
+	right: -24px;
+    top: 53px;
+}
+.gender{
+	margin-top: 8px;
+	padding-left: 15px;
+}
+.gender label{
+	margin-right: 15px;
+}
+.gender label input{
+	position: relative;
+	top:2px;
+}
+
+.myModalImg .modal-dialog{
+	width: 876px;
+	
+}
+.myModalImg .modal-content{
+	background: #333333;
+}
+.myModalImg img{
+	width: 100%;
+}
+.myModalImg .close{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    z-index: 99999;
+    font-size: 30px;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    top: 17px;
+    right: 17px;
+}
+.cllectionSearch{
+	float: right;
+	width: 320px;
+	height: 40px;
+	border:none;
+	margin-right: 28px;
+	margin-top:17px;
+	background: url("../img/userSearch.png") 94% no-repeat #fff;
+}
+.searchText a{
+	margin-right: 50px;
+}
+.searchText a:hover{
+	color: #c8a165;
+	text-decoration: underline!important;
+}
+.citySelect{
+	border:1px solid #313131;
+	height: 40px;
+	line-height: 40px;
+	width: 89px;
+}

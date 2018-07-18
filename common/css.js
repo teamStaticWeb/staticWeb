@@ -8,7 +8,9 @@
 
 var pluginCss = '<!--plugin css start-->' 
 			   +'<link href="../plugin/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">'
-		       +'<!--plugin css end-->';
+                  +'<link href="../plugin/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">'
+		       +'<link href="../plugin/Huploadify.css" type="text/css" rel="stylesheet">'
+                 +'<!--plugin css end-->';
 
 var      css = '<!--custom start-->'
                +'<link href="../assets/fonts/iconfont.css" type="text/css" rel="stylesheet">'

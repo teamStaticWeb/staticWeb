@@ -9,7 +9,9 @@
 var pluginJs ='<!--plugin js start-->' 
 			  +'<script type="text/javascript" src="../plugin/jquery-3.3.1.min.js"></script>'
 			  +'<script type="text/javascript" src="../plugin/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>'
-			   +'<script type="text/javascript" src="../plugin/swiper/js/swiper.min.js"></script>'
+			  +'<script type="text/javascript" src="../plugin/swiper/js/swiper.min.js"></script>'
+			  +'<script type="text/javascript" src="../plugin/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>'
+			  +'<script type="text/javascript" src="../plugin/jquery.Huploadify.js"></script>'
 			  +'<!--plugin js start-->';
 
 var       JS = '<!--custom js start-->'

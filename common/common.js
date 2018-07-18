@@ -17,17 +17,26 @@ var webInfo = "";
 */
 
 window.alert = function (msg, isSuccess, callback) {
-
+var dialogHTML = '<div class="modal fade">'
+ + '<div class="modal-dialog">'
+     +'<div class="modal-content">'
+       
+       + '<div class="modal-body">'
+     + '</div>'
+       
+     + '</div>'
+  + '</div>'
++'</div>';
 	var tipImg = "";
 
-	!isSuccess ?  tipImg = IcoOk : tipImg = icoFalse;
+	//!isSuccess ?  tipImg = IcoOk : tipImg = icoFalse;
 
     if ($('#selfAlert').length <= 0) {
 
         var elem = $(dialogHTML).get(0);//将html转为dom元素
         $(elem).attr("id","selfAlert");//$(elem) 将dom元素转为jquery元素
-        $(elem).find(".modal-body").html(tipImg+'<span class= "msg">'+msg+'</span>');
-        $(elem).find(".modal-footer").html(BtnConfirm);
+        $(elem).find(".modal-body").html('<span class= "msg">'+msg+'</span>');
+        //$(elem).find(".modal-footer").html(BtnConfirm);
         $('body').append($(elem).clone()); 
     }
     $('#selfAlert').on('hidden.bs.modal', function () {
