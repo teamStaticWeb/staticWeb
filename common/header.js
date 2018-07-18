@@ -4,26 +4,26 @@ var headerHtml = `<!-- LAYOUT-->
   <div class="overlay">
     <ul class="">
       <li  class="current">
-        <a href="index.html" title="首页">首页</a>
-      </li>
-      <li>
-        <a href="goodsList.html" title="商品">商品</a>
-      </li>
-      <li>
-        <a href="#" title="空间">空间</a>
-      </li>
-      <li>
-        <a href="#" title="品牌">品牌</a>
-      </li>
-      <li>
-        <a href="#" title="设计师">设计师</a>
-      </li>
-      <li>
-        <a href="#" title="如何选购">如何选购</a>
-      </li>
-      <li>
-        <a href="#" title="最近文章">最近文章</a>
-      </li>
+          <a href="index.html" title="首页">首页</a>
+        </li>
+        <li>
+          <a href="goodsList.html" title="空间">空间</a>
+        </li>
+        <li>
+          <a href="goodsList.html" title="商品">商品</a>
+        </li>
+        <li>
+          <a href="brandList.html" title="品牌">品牌</a>
+        </li>
+        <li>
+          <a href="designerList.html" title="设计师">设计师</a>
+        </li>
+        <li>
+          <a href="#" title="如何选购">如何选购</a>
+        </li>
+        <li>
+          <a href="articleList.html" title="最近文章">最近文章</a>
+        </li>
       
     </ul>
   </div>
@@ -59,25 +59,25 @@ var headerHtml = `<!-- LAYOUT-->
     <div class="navbar-collapse collapse " id="example-navbar-collapse">
       <ul class="nav navbar-nav  pull-right">
         <li  class="current">
-          <a href="#" title="首页">首页</a>
+          <a href="index.html" title="首页">首页</a>
         </li>
         <li>
-          <a href="#" title="空间">空间</a>
+          <a href="goodsList.html" title="空间">空间</a>
         </li>
         <li>
-          <a href="#" title="商品">商品</a>
+          <a href="goodsList.html" title="商品">商品</a>
         </li>
         <li>
-          <a href="#" title="品牌">品牌</a>
+          <a href="brandList.html" title="品牌">品牌</a>
         </li>
         <li>
-          <a href="#" title="设计师">设计师</a>
+          <a href="designerList.html" title="设计师">设计师</a>
         </li>
         <li class="leftLine">
           <a href="#" title="如何选购">如何选购</a>
         </li>
         <li class="rightLine">
-          <a href="#" title="最近文章">最近文章</a>
+          <a href="articleList.html" title="最近文章">最近文章</a>
         </li>
         <li style="position: relative; width: 50px;">
           <div class="top-search-group">
