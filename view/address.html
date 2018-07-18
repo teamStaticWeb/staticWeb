@@ -42,37 +42,38 @@
 	      </div>
 	      <div class="col-sm-8 col-md-9 main">
 			<div class="address-text">
-			  <div class="form-group">
-			    <label for="addressInfo" style="display: block;">地址信息<i>*</i></label>
-			    <select name="province" id="province" class="citySelect">
-                    <option value="请选择">请选择</option>
-                </select>
-                <select name="city" id="city"  class="citySelect">
-                    <option value="请选择">请选择</option>
-                </select>
-                <select name="town" id="town"  class="citySelect">
-                    <option value="请选择">请选择</option>
-                </select>
-			  </div>
-			  <div class="form-group">
-			    <label for="adDetailInfo">详细地址<i>*</i></label>
-			    <input type="text" class="form-control" id="adDetailInfo" placeholder="">
-			  </div>
-			
-			<div class="form-group">
-			    <label for="postalCode">邮政编码</label>
-			    <input type="text" class="form-control" id="postalCode" placeholder="">
-			 </div>
-			  <div class="form-group">
-			    <label for="addressUserName">收货人姓名<i>*</i></label>
-			    <input type="text" class="form-control" id="addressUserName" placeholder="">
-			  </div>
-			   <div class="form-group">
-			    <label for="telPhone">手机号<i>*</i></label>
-			    <input type="text" class="form-control" id="telPhone" placeholder="">
-			  </div>
-			 <button type="submit" class="btn btn-default address-btn">保存</button>
-	
+				<form id="commentForm" method="post" action="">
+				  <div class="form-group">
+				    <label for="addressInfo" style="display: block;">地址信息<i>*</i></label>
+				    <select name="province" id="province" class="citySelect" required>
+	                    <option value="请选择">请选择</option>
+	                </select>
+	                <select name="city" id="city"  class="citySelect">
+	                    <option value="请选择">请选择</option>
+	                </select>
+	                <select name="town" id="town"  class="citySelect">
+	                    <option value="请选择">请选择</option>
+	                </select>
+				  </div>
+				  <div class="form-group">
+				    <label for="adDetailInfo">详细地址<i>*</i></label>
+				    <input type="text" name="adDetailInfo" class="form-control" id="adDetailInfo" placeholder="请输入详细地址" required>
+				  </div>
+				
+				<div class="form-group">
+				    <label for="postalCode">邮政编码<i>*</i></label>
+				    <input type="text" name="zipCode" class="form-control" id="postalCode" placeholder="" required>
+				 </div>
+				  <div class="form-group">
+				    <label for="addressUserName">收货人姓名<i>*</i></label>
+				    <input type="text" name="addressUserName" class="form-control" id="addressUserName" placeholder=""required>
+				  </div>
+				   <div class="form-group">
+				    <label for="telPhone">手机号<i>*</i></label>
+				    <input type="text" name="phone" class="form-control" id="telPhone" placeholder="" required>
+				  </div>
+				 <button type="submit" class="address-btn">保存</button>
+				</form>
 		    </div>
 			<div class="table-wrap">
 				<table class="table table-bordered">

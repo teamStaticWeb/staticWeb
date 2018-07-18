@@ -18,7 +18,7 @@
 设计师
 	设计师列表页--designerList----完成
 
-	设计师详情页--designerDetail
+	设计师详情页--designerDetail---完成
 
 文章
 	文章列表页--articleList---完成

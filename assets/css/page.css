@@ -325,7 +325,7 @@ span.more{
 	height: 40px;
 }
 
-.address-btn{
+.address-btn,.address-btn:hover,.address-btn:active,.address-btn:visited,.address-btn:link{
 	width: 166px;
 	height: 40px;
 	background-color:  #c9a164;

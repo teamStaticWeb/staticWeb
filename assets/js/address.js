@@ -65,4 +65,22 @@ $(function(){
         c = $("#city option:selected").val();
         a = $("#town option:selected").val();
     });
+
+
+    $("#commentForm").validate({
+        // 添加验证规则
+        rules: {
+           zipCode: {    //验证邮箱
+                isZipCode: true
+            },
+            phone : {
+                isPhone:true
+            }
+        
+        }
+    });  
+
+
+
+
 })

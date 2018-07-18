@@ -44,50 +44,49 @@
 	      </div>
 	      <div class="col-sm-8 col-md-9 main">
 			<div class="address-text userInfoWrap">
-			  <div class="form-group">
-			    <label for="userImg" style="display: block;">当前头像<i>*</i></label>
-			    <div class="userImgWrap"  id="fileid"><!--图片上传按钮-->
-			    	<img src="../assets/img/userImg.jpg" id="imgid"><!--预览图片-->
-			    </div>
-			    <span class="glyphicon glyphicon-picture"></span>
-			  </div>
-			  <div class="form-group">
-			    <label for="userName">用户名<i>*</i></label>
-			    <input type="text" class="form-control" id="userName" placeholder="">
-			  </div>
-			
-			<div class="form-group">
-			    <label for="petName">昵称</label>
-			    <input type="text" class="form-control" id="petName" placeholder="">
-			 </div>
-			 
-			   <div class="form-group">
-			    <label for="email">电子邮箱<i>*</i></label>
-			    <input type="text" class="form-control" id="email" placeholder="">
-			  </div>
-			   <div class="form-group">
-			    <label>性别<i>*</i></label>
-			    <div class="gender">
-			    	<label class="radio-inline">
-					  <input type="radio" name="gender" value="1"> 男
-					</label>
-					<label class="radio-inline">
-					  <input type="radio" name="gender" value="2"> 女
-					</label>
-					<label class="radio-inline">
-					  <input type="radio" name="gender" value="3"> 保密
-					</label>
-			    </div>
-			  </div>
-			  <div class="form-group birthday">
-			    <label  style="display: block;">生日<i>*</i></label>
-			    <!-- <input type="text" class="form-control myYear" name="birthday" placeholder="">
-			    <input type="text" class="form-control myMonth" name="birthday" placeholder=""> -->
-			    <input type="text" class="form-control myDay" name="birthday" placeholder="">
-			    <span class="glyphicon glyphicon-calendar"></span>
-			  </div>
-			 <button type="submit" class="btn btn-default address-btn">保存</button>
-	
+				<form id="commentForm" method="post" action="">
+				  <div class="form-group">
+				    <label for="userImg" style="display: block;">当前头像<i>*</i></label>
+				    <div class="userImgWrap"  id="fileid"><!--图片上传按钮-->
+				    	<img src="../assets/img/userImg.jpg" id="imgid"><!--预览图片-->
+				    </div>
+				    <span class="glyphicon glyphicon-picture"></span>
+				  </div>
+				  <div class="form-group">
+				    <label for="userName">用户名<i>*</i></label>
+				    <input type="text" class="form-control" id="userName" placeholder="" name="userName" required>
+				  </div>
+				
+				<div class="form-group">
+				    <label for="petName">昵称</label>
+				    <input type="text" class="form-control" id="petName" placeholder="" name="petName">
+				 </div>
+				 
+				   <div class="form-group">
+				    <label for="email">电子邮箱<i>*</i></label>
+				    <input type="email" class="form-control" id="email" placeholder="" name="email" required>
+				  </div>
+				   <div class="form-group">
+				    <label>性别<i>*</i></label>
+				    <div class="gender">
+				    	<label class="radio-inline">
+						  <input type="radio" name="gender" value="1" checked="checked"> 男
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="gender" value="2"> 女
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="gender" value="3"> 保密
+						</label>
+				    </div>
+				  </div>
+				  <div class="form-group birthday">
+				    <label  style="display: block;">生日<i>*</i></label>
+				    <input type="text" class="form-control myDay" name="birthday" placeholder="" required>
+				    <span class="glyphicon glyphicon-calendar"></span>
+				  </div>
+				 <button type="submit" class="address-btn">保存</button>
+			</form>
 		    </div>
 			
 
