@@ -21,6 +21,7 @@ $(function(){
 	})
 	function submitText($Order){
 		let $orderBtn = $Order.find(".submitText");//提交按钮
+		let $cancelBtn = $Order.find(".cancelText");
 		let textarea = $Order.find("textarea");//表单文本
 		let showTime = $Order.find(".time");//显示的时间
 		let showText = $Order.find(".text");//显示的文本
@@ -39,6 +40,7 @@ $(function(){
 		closeImgBtn(closeImg);
 		//调用公共方法
 		uploadInit(fileidImg,imgWrap);
+
 		$orderBtn.click(function(){
 			//console.log("textarea",textarea.val().length);
 			showTime.text(today);//显示时间
@@ -64,6 +66,10 @@ $(function(){
 			$("input[name=imgClose]").attr("value",closeImgSrc);
 			$("#commentForm").submit();
 			
+		})
+		$cancelBtn.click(function(){
+			$Order.find(".showInput").hide();
+			$Order.find(".showText").show();
 		})
 	}
 	var closeImgSrc = [];
