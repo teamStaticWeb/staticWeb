@@ -28,6 +28,7 @@ var      css = '<!--custom start-->'
                +'<!--custom end-->';
                
 var template = '<script type="text/javascript" src="../common/header.js"></script>'
+               +'<script type="text/javascript" src="../common/template.js"></script>'
 +'<script type="text/javascript" src="../common/login.js"></script>';
 
 document.write(pluginCss,css,template);

@@ -23,7 +23,7 @@
 文章
 	文章列表页--articleList---完成
 
-	文章详情--articleDetail
+	文章详情--articleDetail---完成
 
 个人中心
 	个人资料-----userInfo----完成
@@ -32,13 +32,13 @@
 
 	我的收藏----collection--完成
 
-	我的评论---discuss
+	我的评论---discuss----完成
 
-	我的消息----message
+	我的消息----message--完成
 
 	我的优惠券---coupon
 
-	账号绑定-----bindAccount
+	账号绑定-----bindAccount--完成
 
 	修改密码-----modifyPassWord---完成
 
