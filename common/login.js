@@ -25,14 +25,14 @@ var loginHtml = `<!-- Modal -->
                   <form action="" id="form1">
                       <label for="">
                         <p>用户名 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入用户名">
+                        <input name="username" type="text" required placeholder="请输入用户名">
                       </label>
                       <label for="">
                         <p>密码 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入密码">
+                        <input name="password" type="text" required placeholder="请输入密码">
                       </label>
                       <label for="">
-                        <div class="login-btn">登  录</div>
+                        <button type="submit" class="login-btn">登  录</button>
                       </label>
                     </form>
                   </div>
@@ -41,22 +41,22 @@ var loginHtml = `<!-- Modal -->
                     <form action="" id="form2">
                       <label for="">
                         <p>用户名 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入用户名">
+                        <input type="text" name="username" required placeholder="请输入用户名">
                       </label>
                       <label for="">
                         <p>邮箱 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入邮箱">
+                        <input type="text" type="email" name="email" required placeholder="请输入邮箱">
                       </label>
                       <label for="">
                         <p>密码 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入密码">
+                        <input type="password" required placeholder="请输入密码">
                       </label>
                       <label for="">
                         <p>确认密码 <span class="red1">*</span></p>
-                        <input type="text" placeholder="请输入确认密码">
+                        <input type="password" required name="password_again" placeholder="请输入确认密码">
                       </label>
                       <label for="">
-                        <div class="login-btn">注  册</div>
+                        <button type="submit" class="login-btn">注  册</button>
                       </label>
                     </form>
                   </div>

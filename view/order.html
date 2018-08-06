@@ -4,90 +4,311 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>无恙家居网站-订单详情</title>
+  <title>无恙家居网站-我的订单</title>
   <script src="../common/css.js"></script>
 </head>
 <body>
-	
-	<div class="web-wrapper clearfix" id="jWrapper">
-		<div class="main">
-			<div class="index-top clearfix row">
 
-            	<div class="col-md-5 col-sm-5">
-					<h2 class="login-title">购票登录</h2>
-					<ul class="login-wrap">
-		            	<li>
-		            		<input class="user" id="user" required placeholder="请输入员工号或邮箱">
-		            	</li>
-		                <li>
-		                	<input class="password" id="password" type="password" required placeholder="请输入密码">
-		                </li>
-		                <li>
-		                	<input class="reg" id="reg" required placeholder="请输入图片中的内容" >
-		                	<img class="jImg" src="../../assets/img/temp_img.png">
-		                </li>
-	            	</ul>
-					<div class="login-warp">
-						<button class="btn-login" id="jLoginBtn" type="submit">登&nbsp;录</button>
-					</div>
-					<p class="login-text">
-			            <a class="register">购票注册</a>
-			            <a class="forgetpassword">忘记密码</a>
-		           </p> 
-	            </div>
-				<div class="col-md-7 col-sm-7">
-					<img class="wb100" src="../../assets/img/picture/index_ad_02.jpg">
-				</div>
+	<div class="wrapper-page container">
+		<!--面包屑-->
+		<div class="breadcrumb">
+		    <div class="breadcrumb_text">
+		      <span >
+		      	<a href="index.html" title="">
+		      		首页
+		      	</a>
+		      </span> 
+		      <i>&nbsp; / &nbsp;</i>
+		      
+		      个人中心
+		      	<i>&nbsp; / &nbsp;</i>
+		      	我的订单
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="item-title help">帮助中心</div>
-					<div class="item">
-						<ul>
-							<li><a href="">最新公告</a></li>
-							<li><a href="">最新公告</a></li>
-						</ul>
+        </div>
+      <!--面包屑-->
+      <div class="row">
+	      <div class="col-sm-4 col-md-3 sidebar">
+			<div class="sidebar-title"><img src="../assets/img/userCenterTitle.jpg"/></div>
+			<div class="user-center-left">
+				<a href="#">个人资料</a>
+				<a href="#" class="active">我的订单</a>
+				<a href="#">我的收藏</a>
+				<a href="#">我的评论</a>
+				<a href="#">我的消息</a>
+				<a href="#">我的优惠券</a>
+				<a href="#">账号绑定</a>
+				<a href="#">修改密码</a>
+				<a href="#">收货地址</a>
+			</div>
+	      	
+	      </div>
+	      <div class="col-sm-8 col-md-9 main">
+	      	<div class="discuss-order clearfix order-padd5">
+	      		<div class="order-menu col-md-7">
+		      		<a href="#" class="active">所有订单</a>
+		      		<a href="#">待付款</a>
+		      		<a href="#">待发货</a>
+		      		<a href="#">待收货</a>
+		      		<a href="#">待评价</a>
+		      	</div>
+		      	<div class="order-search col-md-5">
+	      			<input type="text" placeholder="请输入商品名称">
+	      			<span  class="glyphicon glyphicon-search"></span>
+		      	</div>
+	      	</div>
+			<div class="discuss-box">
+				<!--订单 start-->
+				<div class="row">
+					<div class="order-code">
+						<p><span class="pr20">2018-03-09 9:00</span>订单号:<span class="gray-333">18323423</span></p>
+						
+					</div>
+					<div class="discuss-order clearfix order-pt10">
+						<div class="clearfix order-bord-bm-hui">
+							<div class="col-md-9  order-bord-r pt20">
+								<div class="order-goods">
+									<div class="col-md-4">
+										<div class="pro-img">
+											<img src="../assets/img/discussPro.png">
+										</div>
+										
+									</div>
+									<div class="col-md-5">
+										<!--展示文本 start-->
+										<div class="showText">
+											<p class="text">
+											Baily sailen chair
+											</p>
+											
+										</div>
+									</div>
+									<div class="col-md-2">
+										￥9000.00
+									</div>
+									<div class="col-md-1">
+										1
+									</div>
+								</div>
+								
+									<!--展示文本 end-->
+							</div>
+							
+							<div class="col-md-3  pt20">
+								<div class="col-md-7">
+									$70000.89
+								</div>
+								<div class="col-md-5 order-r-menu">
+									<span>已发货</span>
+									<a href="#">订单详情</a>
+									<a href="#">查看物流</a>
+									<a href="javascript:void(0)" class="evaluate">评价</a>
+									<!--提交的表单 start-->
+							<div class="orderEvaluate showInput clearfix">
+								
+								<div class="f-textarea">
+									<textarea name="" id="" placeholder="分享体验心得，给万千想买的人一个参考~"></textarea>
+									<div class="textarea-ext">
+										<em class="textarea-num">
+											<b>0</b> / 500
+										</em>
+										<span class="tips">
+											（更多评价）
+										</span>
+									</div>
+								</div>
+								<div class="upload-img-wrap">
+									<div class="img-wrap">
+										<div class="img-item">
+											<img src="../assets/img/dd-2.jpg">
+											<i class="closeImg"></i>
+										</div>
+										<div class="img-item">
+											<img src="../assets/img/dd-2.jpg">
+											<i class="closeImg"></i>
+										</div>
+									</div>
+									<div class="fileidImg">
+										<i class="icon iconfont icon-xiangji"></i>
+										<span class="fileText">上传照片</span>
+									</div>
+								</div>
+								<div class="btns">
+									<button type="submit" class="submitText">确定</button>
+									<button class="cancelText">取消</button>
+								</div>
+								
+							</div>
+							<!--提交的表单 end-->
+
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="item-title info">政策信息 <a href="#">&gt;&gt;更多</a></div>
-					<div class="item">
-						<ul>
-							<li><a href="">最新公告</a> <span>2014-11-13</span></li>
-						</ul>
+				<div class="row">
+					<div class="order-code">
+						<p><span class="pr20">2018-03-09 9:00</span>订单号:<span class="gray-333">18323423</span></p>
+						
+					</div>
+					<div class="discuss-order clearfix order-pt10">
+						<div class="clearfix order-bord-bm-hui">
+							<div class="order-bord-bd">
+								<span class="pr20">2018-03-09 9:00</span>订单号:<span class="gray-333">18323423</span>
+							</div>
+							<div class="col-md-9  order-bord-r pt20">
+								<div class="order-goods">
+									<div class="col-md-4">
+										<div class="pro-img">
+											<img src="../assets/img/discussPro.png">
+										</div>
+										
+									</div>
+									<div class="col-md-5">
+										<!--展示文本 start-->
+										<div class="showText">
+											<p class="text">
+											Baily sailen chair
+											</p>
+											
+										</div>
+									</div>
+									<div class="col-md-2">
+										￥9000.00
+									</div>
+									<div class="col-md-1">
+										1
+									</div>
+								</div>
+								<div class="order-goods">
+									<div class="col-md-4">
+										<div class="pro-img">
+											<img src="../assets/img/discussPro.png">
+										</div>
+										
+									</div>
+									<div class="col-md-5">
+										<!--展示文本 start-->
+										<div class="showText">
+											<p class="text">
+											Baily sailen chair
+											</p>
+											
+										</div>
+									</div>
+									<div class="col-md-2">
+										￥9000.00
+									</div>
+									<div class="col-md-1">
+										1
+									</div>
+								</div>
+									<!--展示文本 end-->
+							</div>
+							
+							<div class="col-md-3  pt20">
+								<div class="col-md-7">
+									$70000.89
+								</div>
+								<div class="col-md-5 order-r-menu">
+									<span>已发货</span>
+									<a href="#">订单详情</a>
+									<a href="#">查看物流</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="clearfix order-bord-bm-hui">
+							<div class="order-bord-bd">
+								<span class="pr20">2018-03-09 9:00</span>订单号:<span class="gray-333">18323423</span>
+							</div>
+							<div class="col-md-9  order-bord-r pt20">
+								<div class="order-goods">
+									<div class="col-md-4">
+										<div class="pro-img">
+											<img src="../assets/img/discussPro.png">
+										</div>
+										
+									</div>
+									<div class="col-md-5">
+										<!--展示文本 start-->
+										<div class="showText">
+											<p class="text">
+											Baily sailen chair
+											</p>
+											
+										</div>
+									</div>
+									<div class="col-md-2">
+										￥9000.00
+									</div>
+									<div class="col-md-1">
+										1
+									</div>
+								</div>
+								<div class="order-goods">
+									<div class="col-md-4">
+										<div class="pro-img">
+											<img src="../assets/img/discussPro.png">
+										</div>
+										
+									</div>
+									<div class="col-md-5">
+										<!--展示文本 start-->
+										<div class="showText">
+											<p class="text">
+											Baily sailen chair
+											</p>
+											
+										</div>
+									</div>
+									<div class="col-md-2">
+										￥9000.00
+									</div>
+									<div class="col-md-1">
+										1
+									</div>
+								</div>
+									<!--展示文本 end-->
+							</div>
+							
+							<div class="col-md-3  pt20">
+								<div class="col-md-7">
+									$70000.89
+								</div>
+								<div class="col-md-5 order-r-menu">
+									<a href="#">已发货</a>
+									<a href="#">订单详情</a>
+									<a href="#">查看物流</a>
+
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+				<!--订单 end-->
+				
+				
 			</div>
-			<div class="index-bottom row">
-				<h6>关于购票服务问题：</h6>
-				<p>如需客票改签、服务投诉、购买保险、行程单打印等业务请致电所属航空公司客服热线：</p>
-				<p>中国国际航空:95583-1-8-2</p>
-				<p>中国南方航空:40088-95539</p>
-				<p>中国东方航空:服务热线40088-95530，电话拨通后输入大客户编码9090900</p>
-				<p>海南航空:订单咨询及服务 95339-5（工作时间08:00-24:00）；机票改签、升舱服务 95339（24小时）</p>
-				<p>厦门航空:95557-1-8-2</p>
-				<p>深圳航空:95361-6</p>
-				<p>山东航空:95369</p>
-				<p>春秋航空:95524-1-8</p>
-				<p>河北航空:0311-96699</p>
-				<p>大新华航空:订单咨询及服务 95339-5（工作时间08:00-24:00）；机票改签、升舱服务 95339（24小时）</p>
-				<p>吉祥航空：021-95520</p>
-				<p>四川航空：95378-1-5-2</p>
-				<p>昆明航空：0871-96598</p>
-				<p>中联航空：400-102-6666</p>
-				<p>长龙航空：0571-89999999</p>
-				<p>华夏航空：400-600-6633</p>
-				<p>江西航空：0791-96300</p>
-				<p>首都航空：95375</p>
+			
 
-			</div>
-
-
-		</div>
-	</div>
-	<footer>
-
-	</footer>
+	      </div>
+    	</div>
+   <!--评论表单提交 start-->
+  <form id="commentForm" method="post" action="" style="display: none">
+  	<input name="time" value="">
+  	<input name="text" value="">
+  	<input name="imgList" value="">
+  	<input name="imgClose" value="">
+  </form>
+  <!--评论表单提交 end-->
+  <!--删除评论 start-->
+  <form id="delDiscuss" method="post" action="" style="display: none">
+  	<input name="delDiscussItem" value="">
+  </form>
+  <!--删除评论 end-->
+  </div>
 	<script src="../common/app.js"></script>
+	<script src="../assets/js/order.js"></script>
 </body>
 </html>

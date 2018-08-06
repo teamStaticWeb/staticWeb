@@ -19,6 +19,7 @@ $(function(){
 
 		})
 	})
+	
 	function submitText($Order){
 		let $orderBtn = $Order.find(".submitText");//提交按钮
 		let $cancelBtn = $Order.find(".cancelText");
@@ -84,6 +85,7 @@ $(function(){
 		})
 		
 	}
+
 	function uploadInit(domName,domPic){
 		var uploadurl = "http://php/api";//后台的api
 		domName.Huploadify({
@@ -111,9 +113,9 @@ $(function(){
 			onUploadError:function(file,response){
 				alert("上传失败!");
 			}
-	});
+		});
 	
-}
+	}
 
 	
 })

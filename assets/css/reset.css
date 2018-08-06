@@ -1703,7 +1703,7 @@ Navigation
 }
 
 .navbar-custom .navbar-brand {
-	padding: 10px 15px;
+	padding: 17px 0px;
 	letter-spacing: 4px;
 	font-weight: 400;
 	font-size: 20px;
@@ -1993,10 +1993,15 @@ Modules
 	background: #fff;
 	overflow: hidden;
 	margin: 0 auto;
-	width: 100%;
-	min-width:768px;
+	/*max-width: 1360px;
+	min-width:768px;*/
+	width:100%;
 }
-
+.index-content{
+	max-width: 1360px;
+    min-width: 768px;
+    margin: 0px auto;
+}
 .module,
 .module-small {
 	padding: 70px 0;

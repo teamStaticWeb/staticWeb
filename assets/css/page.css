@@ -1,4 +1,31 @@
 /*************index*****************/
+/*index*/
+.litteBannerImg img{
+	width: 103.5%;
+}
+#fh5co-board .item{
+	position: relative;
+}
+.itemHover{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	background: rgba(48,45,41,.50);
+}
+.itemHover .ico-wrap{
+	margin-top: 0px;
+	position: absolute;
+	top:35%;
+	left:10%;
+	text-align: center;
+}
+#fh5co-board .itemHover .ico-wrap a{
+	display: inline-block;
+	color: #333333;
+}
+/*index end*/
 /*买手推荐*/
 .buyer a{
 	font-size: 12px;
@@ -35,6 +62,7 @@
 .designer.buyer dl{
 	margin-bottom:90px;
 	position: relative;
+	height:382px;
 }
 .designer.buyer dl div{
 	position: absolute;
@@ -44,7 +72,7 @@
 
 .ico-wrap{
 	background: #fff;
-	width: 90%;
+	width: 80%;
 	height: 60px;
 	border-radius: 30px;
 	margin:0px auto;
@@ -55,18 +83,19 @@
 
 }
 .ico-wrap:before{
-	content: "|";
-	display: block;
-	width: 1px;
-	height: 30px;
+	content: "";
+    display: block;
+    width: 1px;
+    height: 16px;
     position: absolute;
-    color:#dadada;
-    left:45%;
-    top:28%;
+    color: #dadada;
+    left: 46.5%;
+    top: 38%;
+    border-left: 1px solid #dadada;
 }
 .ico-wrap span{
 	line-height: 60px;
-	margin-right: 44px;
+	margin-right: 40px;
     margin-left: 21px;
 }
 .ico-wrap span:hover{
@@ -172,7 +201,29 @@ span.more{
 	top:0px;
 }
 /*搜索结果页*/
-.searchText{
+.good-list-top{
+	width: 100%;
+}
+.good-list-top li{
+	width: 20%;
+	display: inline-block;
+}
+.good-list-top li a{
+	color: #181818;
+	margin: 0px 10%;
+}
+.good-list-top li a.active{
+	color: #d4b689;
+    border-bottom: 1px solid #d4b689;
+}
+.good-list-top li.all a{
+	font-weight: bold;
+}
+.good-list-top li a:hover{
+	color: #d4b689;
+	text-decoration: underline;
+}
+.searchText,.good-list-top{
 	width: 100%;
     height: 70px;
     background: #f8f8f8;
@@ -181,6 +232,9 @@ span.more{
     line-height: 70px;
     padding-left: 30px;
     margin-bottom: 30px;
+}
+.good-list-top{
+	margin-top:-10px;
 }
 .searchText .sText{
 	color: #545454;
@@ -255,7 +309,7 @@ span.more{
 	display: inline-block;
 }
 .checkboxWrap label i{
-	width:190px;
+	width:178px;
 	height: 30px;
 	position: absolute;
     left: 20px;
@@ -530,6 +584,7 @@ span.more{
 }
 .order-code p{
 	display: inline-block;
+	color:#c2c2c2;
 }
 .order-code .option{
  float: right;
@@ -714,4 +769,134 @@ span.more{
 }
 .textarea-ext{
 	color:#c2c2c2;
+}
+
+/*chenyanhong*/
+.order-padd5{
+	padding:24px 20px 14px 20px;
+}
+.order-menu{
+	/*float:left;
+	width:50%;*/
+}
+.order-menu a{display: inline-block; margin:0 5% 0 0px;}
+.order-menu a.active{
+	color:#c2a77c;
+	text-decoration: underline;
+}
+.order-search{
+	/*float:right;
+	width:40%;*/
+	height:39px;
+	line-height: 34px;
+	background: #fff;
+}
+.order-search input{
+	border:none;
+	background: none;
+	width:84%;
+	height:100%;
+	padding-left:10px;
+	line-height: 20px;
+}
+.pr20{
+	padding-right:20px;
+}
+.gray-333{
+	color:#333;
+}
+.order-pt10{
+	padding-top:10px;
+	padding-left:50px;
+	padding-bottom:0;
+	margin-bottom:12px;
+}
+.order-bord-bd{
+	border-bottom:solid 1px #e1e1e1;
+	padding-bottom:12px;
+	color:#c2c2c2;
+	margin-left:-34px;
+	padding-left:30px;
+}
+.order-bord-r{
+	border-right:solid 1px #ccc;
+	padding-right:20px;
+	margin-left:-34px;
+}
+.pt20{
+	padding-top:20px;
+}
+.order-r-menu {
+	padding-right:0;
+	margin-right:0;
+
+}
+.order-r-menu a,.order-r-menu span{
+	font-size:13px;
+	color:#c8a165;
+	display: block;
+	line-height:26px;
+}
+.order-r-menu span{
+	color:#666;
+}
+.order-goods{
+	overflow: auto;
+	margin-bottom:30px;
+}
+.order-bord-bm-hui{
+	border-bottom:solid 1px #e1e1e1;
+	padding-left: 30px;
+    margin-bottom: 10px;
+    margin-left:-34px;
+}
+
+.order-r-menu{
+	position: relative;
+}
+.orderEvaluate{
+	position: absolute;
+    width: 390px;
+    right: 200px;
+    top: 1px;
+}
+.orderEvaluate .fileText{
+	font-size: 10px;
+}
+
+/*订单详情*/
+.order-detail{
+	background-color: #f7f7f7;
+	margin-bottom: 30px;
+}
+.order-detail .det-img{
+	overflow: hidden;
+}
+.order-detail .det-img img{
+	width: 100%;
+}
+.order-detail .order-bord-r{
+	margin-left:0px;
+	padding:30px 15px 0px;
+}
+.order-detail .order-bord-bd{
+	margin-left: 0px;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+.order-detail .showText{
+	padding-top: 20px;
+}
+.order-detail-text{
+	background-color: #f7f7f7;
+	padding:50px 30px;
+	margin-bottom: 30px;
+}
+.order-detail-text dt{
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+.order-detail-text dd{
+	margin-bottom: 10px;
 }

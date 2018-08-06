@@ -28,7 +28,9 @@
 个人中心
 	个人资料-----userInfo----完成
 
-	我的订单-----order
+	我的订单-----order-----完成
+
+	订单详情---orderDetail---完成
 
 	我的收藏----collection--完成
 

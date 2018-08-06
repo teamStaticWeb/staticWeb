@@ -49,28 +49,12 @@ var footerHtml = `<div class="footer">
               <dt>会员服务</dt>
               <dd>
                 <a href="#">联系我们</a>
-                <a href="#">退换服务</a>
-                <a href="#">网站地图</a>
+                <a href="#">我的订单</a>
+                
               </dd>
             </dl>
-            <dl>
-              <dt>其他</dt>
-              <dd>
-                <a href="#">品牌专区</a>
-                <a href="#">礼品券</a>
-                <a href="#">注册会员</a>
-                <a href="#">优惠商品</a>
-              </dd>
-            </dl>
-            <dl>
-              <dt>会员中心</dt>
-              <dd>
-                <a href="#">会员中心</a>
-                <a href="#">历史订单</a>
-                <a href="#">注册会员</a>
-                <a href="#">优惠商品</a>
-              </dd>
-            </dl>
+          
+            
             <dl class="help">
               <dt>帮助中心</dt>
               <dd>
@@ -78,23 +62,7 @@ var footerHtml = `<div class="footer">
                <span>Open - Close： 09:00 - 21:00</span>
                <span>Mail： <a href="mailto:yimijia@163.com">yimijia@163.com</a></span>
               </dd>
-              <dt class="pay">付款接受</dt>
-              <dd class="row">
-                <div  class="col-md-6"><img src="../assets/img/foot/paypal.jpg" /></div>
-                <div  class="col-md-6"><img src="../assets/img/foot/american.jpg" /></div>
-                
-                
-                
-              </dd>
-              <dd class="row">
-                <div  class="col-md-6 col-xs-6">
-                <img src="../assets/img/foot/amazon.jpg" />
-              </div>
-              <div  class="col-md-6 col-xs-6">
-                <img src="../assets/img/foot/visa.jpg" />
-              </div>
-                
-              </dd>
+              
               
             </dl>
           </div>

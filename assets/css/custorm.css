@@ -155,6 +155,7 @@
 /*轮播*/
 .gallery-top{
 	margin-bottom:12px;
+	height:450px;
 }
 
 .gallery-top img{
@@ -171,6 +172,13 @@
 }
 .ico-wraps span:hover{
 	color:#c8a165;
+}
+#weixin2{
+	display: inline-block;
+}
+#weixin2 img{
+	width:130px;
+	margin:0 20px;
 }
 .weixin2 div{
 	margin-top:3px;
@@ -206,6 +214,7 @@
 .desiger p{
 	padding:5px 10% 50px 10%;
 	line-height: 30px;
+	text-indent: 2em;
 }
 .d-detail-img{
 	clear:both;
@@ -224,4 +233,5 @@
 }
 .d-detail-img div img{
 	width:100%;
+	cursor:pointer;
 }
